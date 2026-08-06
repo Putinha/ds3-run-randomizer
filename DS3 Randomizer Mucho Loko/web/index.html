@@ -97,6 +97,33 @@ button:disabled{
     margin:0;
     font-size:30px;
 }
+
+.result-section{
+    margin:15px 0;
+}
+
+.result-section h3{
+    margin:0 0 8px 0;
+    font-size:18px;
+    color:#ccc;
+}
+
+.result-section ul{
+    margin:5px 0;
+    padding-left:20px;
+    list-style-type:none;
+}
+
+.result-section li{
+    padding:3px 0;
+}
+
+.full-run-results .result-section{
+    background:#222;
+    border:1px solid #333;
+    border-radius:8px;
+    padding:15px;
+}
 </style>
 </head>
 
@@ -111,6 +138,13 @@ button:disabled{
 <h2>Randomization</h2>
 
 <div id="categories" class="options"></div>
+
+<div class="options">
+<label class="option">
+<input type="checkbox" id="full-run-checkbox">
+Full Run
+</label>
+</div>
 
 <h2>Seed</h2>
 
@@ -149,6 +183,16 @@ alt="Weapon">
 
 </section>
 
+<section id="full-run-results" class="panel full-run-results" hidden>
+
+<h2>Full Run</h2>
+
+<div id="full-run-summary"></div>
+
+<div id="full-run-content"></div>
+
+</section>
+
 </main>
 
 <script>
@@ -161,6 +205,10 @@ const results=document.getElementById("results");
 const summary=document.getElementById("summary");
 const weaponName=document.getElementById("weapon-name");
 const weaponImage=document.getElementById("weapon-image");
+const fullRunCheckbox=document.getElementById("full-run-checkbox");
+const fullRunResults=document.getElementById("full-run-results");
+const fullRunSummary=document.getElementById("full-run-summary");
+const fullRunContent=document.getElementById("full-run-content");
 
 async function init(){
 
@@ -178,8 +226,81 @@ ${c.name}${c.available?"":" (coming soon)"}
 
 }
 
+function safeValue(val) {
+    if (val === null || val === undefined) return "None";
+    return val;
+}
+
+function displayFullRun(data) {
+    fullRunSummary.innerHTML = `<p><strong>Seed:</strong> ${data.seed}</p>`;
+    
+    let html = "";
+    
+    // Weapons section
+    html += `
+<div class="result-section">
+<h3>Weapons</h3>
+<ul>
+<li><strong>Starting Weapon:</strong> ${safeValue(data.weapons.starting)}</li>
+<li><strong>Weapon #2:</strong> ${safeValue(data.weapons.additional[0])}</li>
+<li><strong>Weapon #3:</strong> ${safeValue(data.weapons.additional[1])}</li>
+</ul>
+</div>
+`;
+    
+    // Magic section
+    html += `
+<div class="result-section">
+<h3>Magic</h3>
+<ul>
+<li><strong>Spell:</strong> ${safeValue(data.magic.spell)}</li>
+<li><strong>School:</strong> ${safeValue(data.magic.school)}</li>
+<li><strong>Catalyst:</strong> ${safeValue(data.magic.catalyst)}</li>
+</ul>
+</div>
+`;
+    
+    // Shield section
+    html += `
+<div class="result-section">
+<h3>Shield</h3>
+<ul>
+<li>${safeValue(data.shield)}</li>
+</ul>
+</div>
+`;
+    
+    // Rings section
+    html += `
+<div class="result-section">
+<h3>Rings</h3>
+<ul>
+<li><strong>Ring #1:</strong> ${safeValue(data.rings[0])}</li>
+<li><strong>Ring #2:</strong> ${safeValue(data.rings[1])}</li>
+<li><strong>Ring #3:</strong> ${safeValue(data.rings[2])}</li>
+<li><strong>Ring #4:</strong> ${safeValue(data.rings[3])}</li>
+</ul>
+</div>
+`;
+    
+    // Character section
+    html += `
+<div class="result-section">
+<h3>Character</h3>
+<ul>
+<li><strong>Final Level:</strong> ${safeValue(data.character.final_level)}</li>
+<li><strong>Leveling Priority:</strong> ${safeValue(data.character.leveling_priority.join(", "))}</li>
+</ul>
+</div>
+`;
+    
+    fullRunContent.innerHTML = html;
+    fullRunResults.hidden = false;
+}
+
 async function generate(){
 
+    const isFullRun = fullRunCheckbox.checked;
     const checked=[...document.querySelectorAll("#categories input:checked")]
         .map(x=>x.dataset.id);
 
@@ -188,48 +309,62 @@ async function generate(){
     status.textContent="Generating...";
 
     results.hidden=true;
+    fullRunResults.hidden=true;
 
     try{
 
-        let body={
-            categories:checked
-        };
-
+        let body={};
+        
         if(seed.value.trim())
             body.seed=Number(seed.value);
 
-        const r=await fetch("/api/randomize",{
-            method:"POST",
-            headers:{
-                "Content-Type":"application/json"
-            },
-            body:JSON.stringify(body)
-        });
+        let r;
+        if (isFullRun) {
+            r = await fetch("/api/full-run", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(body)
+            });
+        } else {
+            body.categories = checked;
+            r = await fetch("/api/randomize", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(body)
+            });
+        }
 
         const data=await r.json();
 
         if(!r.ok)
             throw new Error(data.error);
 
-        const weapon=data.weapon;
+        if (isFullRun) {
+            displayFullRun(data);
+        } else {
+            const weapon=data.weapon;
 
-        if(!weapon || !weapon.randomized){
-            throw new Error("Randomizer returned no weapon.");
-}
+            if(!weapon || !weapon.randomized){
+                throw new Error("Randomizer returned no weapon.");
+        }
 
-        summary.innerHTML=`
+            summary.innerHTML=`
 <p>
 <strong>Seed:</strong> ${data.seed}
 &nbsp;
 <span class="ok">✓ Valid progression</span>
 </p>`;
 
-        weaponName.textContent=weapon.randomized;
+            weaponName.textContent=weapon.randomized;
 
-        // TEMPORÁRIO
-        weaponImage.src="test.png";
+            weaponImage.src="test.png";
 
-        results.hidden=false;
+            results.hidden=false;
+        }
 
         status.textContent="Done.";
 
