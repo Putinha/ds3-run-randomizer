@@ -1,0 +1,1269 @@
+[
+    {
+        "name": "Dagger",
+        "type": "Dagger",
+        "location": "Early Game / Various",
+        "progression": 1,
+        "dlc": false
+    },
+    {
+        "name": "Bandit's Knife",
+        "type": "Dagger",
+        "location": "Early Game / Various",
+        "progression": 1,
+        "dlc": false
+    },
+    {
+        "name": "Brigand Twindaggers",
+        "type": "Dagger",
+        "location": "Early Game / Various",
+        "progression": 1,
+        "dlc": false
+    },
+    {
+        "name": "Corvian Greatknife",
+        "type": "Dagger",
+        "location": "Early Game / Various",
+        "progression": 1,
+        "dlc": false
+    },
+    {
+        "name": "Handmaid's Dagger",
+        "type": "Dagger",
+        "location": "Early Game / Various",
+        "progression": 1,
+        "dlc": false
+    },
+    {
+        "name": "Harpe",
+        "type": "Dagger",
+        "location": "Early Game / Various",
+        "progression": 1,
+        "dlc": false
+    },
+    {
+        "name": "Mail Breaker",
+        "type": "Dagger",
+        "location": "Early Game / Various",
+        "progression": 1,
+        "dlc": false
+    },
+    {
+        "name": "Murky Hand Scythe",
+        "type": "Dagger",
+        "location": "Early Game / Various",
+        "progression": 1,
+        "dlc": false
+    },
+    {
+        "name": "Parrying Dagger",
+        "type": "Dagger",
+        "location": "Early Game / Various",
+        "progression": 1,
+        "dlc": false
+    },
+    {
+        "name": "Scholar's Candlestick",
+        "type": "Dagger",
+        "location": "Early Game / Various",
+        "progression": 1,
+        "dlc": false
+    },
+    {
+        "name": "Tailbone Short Sword",
+        "type": "Dagger",
+        "location": "Early Game / Various",
+        "progression": 1,
+        "dlc": false
+    },
+    {
+        "name": "Fist",
+        "type": "Fist Weapon",
+        "location": "Various",
+        "progression": 1,
+        "dlc": false
+    },
+    {
+        "name": "Caestus",
+        "type": "Fist Weapon",
+        "location": "Various",
+        "progression": 1,
+        "dlc": false
+    },
+    {
+        "name": "Dark Hand",
+        "type": "Fist Weapon",
+        "location": "Various",
+        "progression": 1,
+        "dlc": false
+    },
+    {
+        "name": "Demon's Fist",
+        "type": "Fist Weapon",
+        "location": "Various",
+        "progression": 1,
+        "dlc": false
+    },
+    {
+        "name": "Claw",
+        "type": "Claw",
+        "location": "Various",
+        "progression": 1,
+        "dlc": false
+    },
+    {
+        "name": "Manikin Claws",
+        "type": "Claw",
+        "location": "Various",
+        "progression": 1,
+        "dlc": false
+    },
+    {
+        "name": "Crow Talons",
+        "type": "Claw",
+        "location": "Painted World of Ariandel",
+        "progression": 4,
+        "dlc": true
+    },
+    {
+        "name": "Broken Straight Sword",
+        "type": "Straight Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Long Sword",
+        "type": "Straight Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Shortsword",
+        "type": "Straight Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Broadsword",
+        "type": "Straight Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Astora Straight Sword",
+        "type": "Straight Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Lothric Knight Sword",
+        "type": "Straight Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Dark Sword",
+        "type": "Straight Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Irithyll Straight Sword",
+        "type": "Straight Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Barbed Straight Sword",
+        "type": "Straight Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Anri's Straight Sword",
+        "type": "Straight Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Gotthard Twinswords",
+        "type": "Straight Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Morion Blade",
+        "type": "Straight Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Sunlight Straight Sword",
+        "type": "Straight Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Lothric's Holy Sword",
+        "type": "Straight Sword",
+        "location": "Various",
+        "progression": 4,
+        "dlc": false
+    },
+    {
+        "name": "Cleric's Candlestick",
+        "type": "Straight Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Ringed Knight Straight Sword",
+        "type": "Straight Sword",
+        "location": "The Ringed City",
+        "progression": 5,
+        "dlc": true
+    },
+    {
+        "name": "Bastard Sword",
+        "type": "Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Claymore",
+        "type": "Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Flamberge",
+        "type": "Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Hollowslayer Greatsword",
+        "type": "Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Drakeblood Greatsword",
+        "type": "Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Executioner's Greatsword",
+        "type": "Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Black Knight Sword",
+        "type": "Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Wolf Knight's Greatsword",
+        "type": "Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Moonlight Greatsword",
+        "type": "Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Greatsword of Judgment",
+        "type": "Greatsword",
+        "location": "Various",
+        "progression": 4,
+        "dlc": false
+    },
+    {
+        "name": "Firelink Greatsword",
+        "type": "Greatsword",
+        "location": "Various",
+        "progression": 5,
+        "dlc": false
+    },
+    {
+        "name": "Profaned Greatsword",
+        "type": "Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Twin Princes' Greatsword",
+        "type": "Greatsword",
+        "location": "Various",
+        "progression": 5,
+        "dlc": false
+    },
+    {
+        "name": "Onyx Blade",
+        "type": "Greatsword",
+        "location": "Various",
+        "progression": 4,
+        "dlc": false
+    },
+    {
+        "name": "Gael's Greatsword",
+        "type": "Greatsword",
+        "location": "Various",
+        "progression": 5,
+        "dlc": false
+    },
+    {
+        "name": "Valorheart",
+        "type": "Greatsword",
+        "location": "Painted World of Ariandel",
+        "progression": 4,
+        "dlc": true
+    },
+    {
+        "name": "Astora Greatsword",
+        "type": "Ultra Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Black Knight Greatsword",
+        "type": "Ultra Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Cathedral Knight Greatsword",
+        "type": "Ultra Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Farron Greatsword",
+        "type": "Ultra Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Fume Ultra Greatsword",
+        "type": "Ultra Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Greatsword",
+        "type": "Ultra Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Lorian's Greatsword",
+        "type": "Ultra Greatsword",
+        "location": "Various",
+        "progression": 5,
+        "dlc": false
+    },
+    {
+        "name": "Lothric Knight Greatsword",
+        "type": "Ultra Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Ringed Knight Paired Greatswords",
+        "type": "Paired Greatswords",
+        "location": "The Ringed City",
+        "progression": 5,
+        "dlc": true
+    },
+    {
+        "name": "Zweihander",
+        "type": "Ultra Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Storm Ruler",
+        "type": "Ultra Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Estoc",
+        "type": "Thrusting Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Rapier",
+        "type": "Thrusting Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Irithyll Rapier",
+        "type": "Thrusting Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Ricard's Rapier",
+        "type": "Thrusting Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Crystal Sage's Rapier",
+        "type": "Thrusting Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Crow Quills",
+        "type": "Thrusting Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Carthus Curved Sword",
+        "type": "Curved Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Carthus Shotel",
+        "type": "Curved Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Crescent Moon Sword",
+        "type": "Curved Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Dancer's Enchanted Swords",
+        "type": "Curved Sword",
+        "location": "Various",
+        "progression": 4,
+        "dlc": false
+    },
+    {
+        "name": "Demon's Scar",
+        "type": "Curved Sword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Falchion",
+        "type": "Curved Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Follower Sabre",
+        "type": "Curved Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Painting Guardian's Curved Sword",
+        "type": "Curved Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Pontiff Knight Curved Sword",
+        "type": "Curved Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Rotten Ghru Curved Sword",
+        "type": "Curved Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Scimitar",
+        "type": "Curved Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Sellsword Twinblades",
+        "type": "Curved Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Shotel",
+        "type": "Curved Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Storm Curved Sword",
+        "type": "Curved Sword",
+        "location": "Various",
+        "progression": 5,
+        "dlc": false
+    },
+    {
+        "name": "Warden Twinblades",
+        "type": "Curved Sword",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Carthus Curved Greatsword",
+        "type": "Curved Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Exile Greatsword",
+        "type": "Curved Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Murakumo",
+        "type": "Curved Greatsword",
+        "location": "Irithyll Dungeon",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Old Wolf Curved Sword",
+        "type": "Curved Greatsword",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Harald Curved Greatsword",
+        "type": "Curved Greatsword",
+        "location": "The Dreg Heap",
+        "progression": 5,
+        "dlc": true
+    },
+    {
+        "name": "Uchigatana",
+        "type": "Katana",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Washing Pole",
+        "type": "Katana",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Black Blade",
+        "type": "Katana",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Chaos Blade",
+        "type": "Katana",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Frayed Blade",
+        "type": "Katana",
+        "location": "Various",
+        "progression": 5,
+        "dlc": false
+    },
+    {
+        "name": "Onikiri and Ubadachi",
+        "type": "Katana",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Darkdrift",
+        "type": "Katana",
+        "location": "Various",
+        "progression": 4,
+        "dlc": false
+    },
+    {
+        "name": "Bloodlust",
+        "type": "Katana",
+        "location": "Various",
+        "progression": 4,
+        "dlc": false
+    },
+    {
+        "name": "Battle Axe",
+        "type": "Axe",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Brigand Axe",
+        "type": "Axe",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Butcher Knife",
+        "type": "Axe",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Hand Axe",
+        "type": "Axe",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Thrall Axe",
+        "type": "Axe",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Winged Knight Twinaxes",
+        "type": "Axe",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Man Serpent Hatchet",
+        "type": "Axe",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Eleonora",
+        "type": "Axe",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Black Knight Greataxe",
+        "type": "Greataxe",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Demon's Greataxe",
+        "type": "Greataxe",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Dragonslayer Greataxe",
+        "type": "Greataxe",
+        "location": "Various",
+        "progression": 4,
+        "dlc": false
+    },
+    {
+        "name": "Earth Seeker",
+        "type": "Greataxe",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Greataxe",
+        "type": "Greataxe",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Great Mace",
+        "type": "Great Hammer",
+        "location": "Cathedral of the Deep",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Yhorm's Great Machete",
+        "type": "Greataxe",
+        "location": "Various",
+        "progression": 4,
+        "dlc": false
+    },
+    {
+        "name": "Club",
+        "type": "Hammer",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Mace",
+        "type": "Hammer",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Morning Star",
+        "type": "Hammer",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Reinforced Club",
+        "type": "Hammer",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Warpick",
+        "type": "Hammer",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Blacksmith Hammer",
+        "type": "Hammer",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Drang Hammers",
+        "type": "Hammer",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Heysel Pick",
+        "type": "Hammer",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Dragon Tooth",
+        "type": "Great Hammer",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Gargoyle Flame Hammer",
+        "type": "Great Hammer",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Great Club",
+        "type": "Great Hammer",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Ledo's Great Hammer",
+        "type": "Great Hammer",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Morne's Great Hammer",
+        "type": "Great Hammer",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Old King's Great Hammer",
+        "type": "Great Hammer",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Smough's Great Hammer",
+        "type": "Great Hammer",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Vordt's Great Hammer",
+        "type": "Great Hammer",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Spotted Whip",
+        "type": "Whip",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Halberd",
+        "type": "Halberd",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Lucerne",
+        "type": "Halberd",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Red Hilted Halberd",
+        "type": "Halberd",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Winged Knight Halberd",
+        "type": "Halberd",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Glaive",
+        "type": "Halberd",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Gundyr's Halberd",
+        "type": "Halberd",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Immolation Tinder",
+        "type": "Halberd",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Black Knight Glaive",
+        "type": "Halberd",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Crescent Axe",
+        "type": "Halberd",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Splitleaf Greatsword",
+        "type": "Halberd",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Crucifix of the Mad King",
+        "type": "Halberd",
+        "location": "The Ringed City",
+        "progression": 5,
+        "dlc": true
+    },
+    {
+        "name": "Pike",
+        "type": "Pike",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Greatlance",
+        "type": "Pike",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Lothric Knight Long Spear",
+        "type": "Pike",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Lothric War Banner",
+        "type": "Spear",
+        "location": "The Ringed City",
+        "progression": 5,
+        "dlc": true
+    },
+    {
+        "name": "Ringed Knight Spear",
+        "type": "Spear",
+        "location": "The Ringed City",
+        "progression": 5,
+        "dlc": true
+    },
+    {
+        "name": "Spear",
+        "type": "Spear",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Partizan",
+        "type": "Spear",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Winged Spear",
+        "type": "Spear",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Saint Bident",
+        "type": "Spear",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Four-Pronged Plow",
+        "type": "Spear",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Dragonslayer Spear",
+        "type": "Spear",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Dragonslayer Swordspear",
+        "type": "Halberd",
+        "location": "Archdragon Peak",
+        "progression": 4,
+        "dlc": false
+    },
+    {
+        "name": "Follower Javelin",
+        "type": "Spear",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Arstor's Spear",
+        "type": "Spear",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Rotten Ghru Spear",
+        "type": "Spear",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Tailbone Spear",
+        "type": "Spear",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Yorshka's Spear",
+        "type": "Spear",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Great Corvian Scythe",
+        "type": "Reaper",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Great Scythe",
+        "type": "Reaper",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Pontiff Knight Great Scythe",
+        "type": "Reaper",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Friede's Great Scythe",
+        "type": "Reaper",
+        "location": "Various",
+        "progression": 4,
+        "dlc": true
+    },
+    {
+        "name": "Whip",
+        "type": "Whip",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Notched Whip",
+        "type": "Whip",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Witch's Locks",
+        "type": "Whip",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Rose of Ariandel",
+        "type": "Whip",
+        "location": "Painted World of Ariandel",
+        "progression": 4,
+        "dlc": true
+    },
+    {
+        "name": "Short Bow",
+        "type": "Bow",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Longbow",
+        "type": "Bow",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Composite Bow",
+        "type": "Bow",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Black Bow of Pharis",
+        "type": "Bow",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Darkmoon Longbow",
+        "type": "Bow",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Dragonrider Bow",
+        "type": "Bow",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "White Birch Bow",
+        "type": "Bow",
+        "location": "The Ringed City",
+        "progression": 5,
+        "dlc": true
+    },
+    {
+        "name": "Dragonslayer Greatbow",
+        "type": "Greatbow",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Onislayer Greatbow",
+        "type": "Greatbow",
+        "location": "Various",
+        "progression": 3,
+        "dlc": false
+    },
+    {
+        "name": "Millwood Greatbow",
+        "type": "Greatbow",
+        "location": "Painted World of Ariandel",
+        "progression": 4,
+        "dlc": true
+    },
+    {
+        "name": "Light Crossbow",
+        "type": "Crossbow",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Arbalest",
+        "type": "Crossbow",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Knight's Crossbow",
+        "type": "Crossbow",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Heavy Crossbow",
+        "type": "Crossbow",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Avelyn",
+        "type": "Crossbow",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Sniper Crossbow",
+        "type": "Crossbow",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Man Serpent Crossbow",
+        "type": "Crossbow",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    },
+    {
+        "name": "Repeating Crossbow",
+        "type": "Crossbow",
+        "location": "Various",
+        "progression": 2,
+        "dlc": false
+    }
+]

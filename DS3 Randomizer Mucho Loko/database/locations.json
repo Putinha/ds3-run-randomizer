@@ -1,0 +1,1554 @@
+{
+    "dagger": {
+        "name": "Dagger - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Dagger",
+        "source": "npc_shop",
+        "seller": "Greirat",
+        "requires": null
+    },
+    "bandit_s_knife": {
+        "name": "Bandit's Knife - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Bandit's Knife",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "brigand_twindaggers": {
+        "name": "Brigand Twindaggers - Road of Sacrifices",
+        "area": "Road of Sacrifices",
+        "item": "Brigand Twindaggers",
+        "source": "corpse",
+        "requires": null
+    },
+    "corvian_greatknife": {
+        "name": "Corvian Greatknife - Road of Sacrifices",
+        "area": "Road of Sacrifices",
+        "item": "Corvian Greatknife",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "handmaid_s_dagger": {
+        "name": "Handmaid's Dagger - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Handmaid's Dagger",
+        "source": "npc_shop",
+        "seller": "Shrine Handmaid",
+        "requires": null
+    },
+    "harpe": {
+        "name": "Harpe - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Harpe",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "mail_breaker": {
+        "name": "Mail Breaker - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Mail Breaker",
+        "source": "npc_shop",
+        "seller": "Greirat",
+        "requires": null
+    },
+    "murky_hand_scythe": {
+        "name": "Murky Hand Scythe - The Dreg Heap",
+        "area": "The Dreg Heap",
+        "item": "Murky Hand Scythe",
+        "source": "corpse",
+        "requires": null
+    },
+    "parrying_dagger": {
+        "name": "Parrying Dagger - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Parrying Dagger",
+        "source": "npc_shop",
+        "seller": "Greirat",
+        "requires": null
+    },
+    "scholar_s_candlestick": {
+        "name": "Scholar's Candlestick - Grand Archives",
+        "area": "Grand Archives",
+        "item": "Scholar's Candlestick",
+        "source": "corpse",
+        "requires": null
+    },
+    "tailbone_short_sword": {
+        "name": "Tailbone Short Sword - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Tailbone Short Sword",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "fist": {
+        "name": "Fist - Cemetery of Ash",
+        "area": "Cemetery of Ash",
+        "item": "Fist",
+        "source": "starting_equipment",
+        "requires": null
+    },
+    "caestus": {
+        "name": "Caestus - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Caestus",
+        "source": "corpse",
+        "requires": null
+    },
+    "dark_hand": {
+        "name": "Dark Hand - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Dark Hand",
+        "source": "npc_shop",
+        "seller": "Yuria of Londor",
+        "requires": null
+    },
+    "demon_s_fist": {
+        "name": "Demon's Fist - Road of Sacrifices",
+        "area": "Road of Sacrifices",
+        "item": "Demon's Fist",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Demon"
+                }
+            ]
+        }
+    },
+    "claw": {
+        "name": "Claw - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Claw",
+        "source": "corpse",
+        "requires": null
+    },
+    "manikin_claws": {
+        "name": "Manikin Claws - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Manikin Claws",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "crow_talons": {
+        "name": "Crow Talons - Painted World of Ariandel",
+        "area": "Painted World of Ariandel",
+        "item": "Crow Talons",
+        "source": "corpse",
+        "requires": null
+    },
+    "broken_straight_sword": {
+        "name": "Broken Straight Sword - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Broken Straight Sword",
+        "source": "corpse",
+        "requires": null
+    },
+    "long_sword": {
+        "name": "Long Sword - Cemetery of Ash",
+        "area": "Cemetery of Ash",
+        "item": "Long Sword",
+        "source": "starting_equipment",
+        "requires": null
+    },
+    "shortsword": {
+        "name": "Shortsword - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Shortsword",
+        "source": "npc_shop",
+        "seller": "Shrine Handmaid",
+        "requires": null
+    },
+    "broadsword": {
+        "name": "Broadsword - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Broadsword",
+        "source": "corpse",
+        "requires": null
+    },
+    "astora_straight_sword": {
+        "name": "Astora Straight Sword - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Astora Straight Sword",
+        "source": "corpse",
+        "requires": null
+    },
+    "lothric_knight_sword": {
+        "name": "Lothric Knight Sword - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Lothric Knight Sword",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "dark_sword": {
+        "name": "Dark Sword - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Dark Sword",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "irithyll_straight_sword": {
+        "name": "Irithyll Straight Sword - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Irithyll Straight Sword",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "barbed_straight_sword": {
+        "name": "Barbed Straight Sword - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Barbed Straight Sword",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "anri_s_straight_sword": {
+        "name": "Anri's Straight Sword - Irithyll of the Boreal Valley",
+        "area": "Irithyll of the Boreal Valley",
+        "item": "Anri's Straight Sword",
+        "source": "boss_drop",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Pontiff Sulyvahn"
+                }
+            ]
+        }
+    },
+    "gotthard_twinswords": {
+        "name": "Gotthard Twinswords - Grand Archives",
+        "area": "Grand Archives",
+        "item": "Gotthard Twinswords",
+        "source": "corpse",
+        "requires": null
+    },
+    "morion_blade": {
+        "name": "Morion Blade - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Morion Blade",
+        "source": "npc_shop",
+        "seller": "Yuria of Londor",
+        "requires": null
+    },
+    "sunlight_straight_sword": {
+        "name": "Sunlight Straight Sword - Lothric Castle",
+        "area": "Lothric Castle",
+        "item": "Sunlight Straight Sword",
+        "source": "corpse",
+        "requires": null
+    },
+    "lothric_s_holy_sword": {
+        "name": "Lothric's Holy Sword - Grand Archives",
+        "area": "Grand Archives",
+        "item": "Lothric's Holy Sword",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Lothric and Lorian"
+                }
+            ]
+        }
+    },
+    "cleric_s_candlestick": {
+        "name": "Cleric's Candlestick - Road of Sacrifices",
+        "area": "Road of Sacrifices",
+        "item": "Cleric's Candlestick",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Crystal Sage"
+                }
+            ]
+        }
+    },
+    "ringed_knight_straight_sword": {
+        "name": "Ringed Knight Straight Sword - The Ringed City",
+        "area": "The Ringed City",
+        "item": "Ringed Knight Straight Sword",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "bastard_sword": {
+        "name": "Bastard Sword - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Bastard Sword",
+        "source": "npc_shop",
+        "seller": "Greirat",
+        "requires": null
+    },
+    "claymore": {
+        "name": "Claymore - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Claymore",
+        "source": "corpse",
+        "requires": null
+    },
+    "flamberge": {
+        "name": "Flamberge - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Flamberge",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "hollowslayer_greatsword": {
+        "name": "Hollowslayer Greatsword - Road of Sacrifices",
+        "area": "Road of Sacrifices",
+        "item": "Hollowslayer Greatsword",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Curse-rotted Greatwood"
+                }
+            ]
+        }
+    },
+    "drakeblood_greatsword": {
+        "name": "Drakeblood Greatsword - Archdragon Peak",
+        "area": "Archdragon Peak",
+        "item": "Drakeblood Greatsword",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "executioner_s_greatsword": {
+        "name": "Executioner's Greatsword - Cathedral of the Deep",
+        "area": "Cathedral of the Deep",
+        "item": "Executioner's Greatsword",
+        "source": "corpse",
+        "requires": null
+    },
+    "black_knight_sword": {
+        "name": "Black Knight Sword - Smouldering Lake",
+        "area": "Smouldering Lake",
+        "item": "Black Knight Sword",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "wolf_knight_s_greatsword": {
+        "name": "Wolf Knight's Greatsword - Farron Keep",
+        "area": "Farron Keep",
+        "item": "Wolf Knight's Greatsword",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Abyss Watchers"
+                }
+            ]
+        }
+    },
+    "moonlight_greatsword": {
+        "name": "Moonlight Greatsword - Consumed King's Garden",
+        "area": "Consumed King's Garden",
+        "item": "Moonlight Greatsword",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Oceiros, the Consumed King"
+                }
+            ]
+        }
+    },
+    "greatsword_of_judgment": {
+        "name": "Greatsword of Judgment - Irithyll of the Boreal Valley",
+        "area": "Irithyll of the Boreal Valley",
+        "item": "Greatsword of Judgment",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Pontiff Sulyvahn"
+                }
+            ]
+        }
+    },
+    "firelink_greatsword": {
+        "name": "Firelink Greatsword - Kiln of the First Flame",
+        "area": "Kiln of the First Flame",
+        "item": "Firelink Greatsword",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Soul of Cinder"
+                }
+            ]
+        }
+    },
+    "profaned_greatsword": {
+        "name": "Profaned Greatsword - Irithyll of the Boreal Valley",
+        "area": "Irithyll of the Boreal Valley",
+        "item": "Profaned Greatsword",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Pontiff Sulyvahn"
+                }
+            ]
+        }
+    },
+    "twin_princes_greatsword": {
+        "name": "Twin Princes' Greatsword - Grand Archives",
+        "area": "Grand Archives",
+        "item": "Twin Princes' Greatsword",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Lothric and Lorian"
+                }
+            ]
+        }
+    },
+    "onyx_blade": {
+        "name": "Onyx Blade - Painted World of Ariandel",
+        "area": "Painted World of Ariandel",
+        "item": "Onyx Blade",
+        "source": "boss_drop",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Champion's Gravetender"
+                }
+            ]
+        }
+    },
+    "gael_s_greatsword": {
+        "name": "Gael's Greatsword - The Ringed City",
+        "area": "The Ringed City",
+        "item": "Gael's Greatsword",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Slave Knight Gael"
+                }
+            ]
+        }
+    },
+    "valorheart": {
+        "name": "Valorheart - Painted World of Ariandel",
+        "area": "Painted World of Ariandel",
+        "item": "Valorheart",
+        "source": "boss_drop",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Champion's Gravetender"
+                }
+            ]
+        }
+    },
+    "astora_greatsword": {
+        "name": "Astora Greatsword - Cathedral of the Deep",
+        "area": "Cathedral of the Deep",
+        "item": "Astora Greatsword",
+        "source": "corpse",
+        "requires": null
+    },
+    "black_knight_greatsword": {
+        "name": "Black Knight Greatsword - Catacombs of Carthus",
+        "area": "Catacombs of Carthus",
+        "item": "Black Knight Greatsword",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "cathedral_knight_greatsword": {
+        "name": "Cathedral Knight Greatsword - Cathedral of the Deep",
+        "area": "Cathedral of the Deep",
+        "item": "Cathedral Knight Greatsword",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "farron_greatsword": {
+        "name": "Farron Greatsword - Farron Keep",
+        "area": "Farron Keep",
+        "item": "Farron Greatsword",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Abyss Watchers"
+                }
+            ]
+        }
+    },
+    "fume_ultra_greatsword": {
+        "name": "Fume Ultra Greatsword - Smouldering Lake",
+        "area": "Smouldering Lake",
+        "item": "Fume Ultra Greatsword",
+        "source": "boss_drop",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Old Demon King"
+                }
+            ]
+        }
+    },
+    "greatsword": {
+        "name": "Greatsword - Irithyll Dungeon",
+        "area": "Irithyll Dungeon",
+        "item": "Greatsword",
+        "source": "corpse",
+        "requires": null
+    },
+    "lorian_s_greatsword": {
+        "name": "Lorian's Greatsword - Grand Archives",
+        "area": "Grand Archives",
+        "item": "Lorian's Greatsword",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Lothric and Lorian"
+                }
+            ]
+        }
+    },
+    "lothric_knight_greatsword": {
+        "name": "Lothric Knight Greatsword - Lothric Castle",
+        "area": "Lothric Castle",
+        "item": "Lothric Knight Greatsword",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "ringed_knight_paired_greatswords": {
+        "name": "Ringed Knight Paired Greatswords - The Ringed City",
+        "area": "The Ringed City",
+        "item": "Ringed Knight Paired Greatswords",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "zweihander": {
+        "name": "Zweihander - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Zweihander",
+        "source": "npc_shop",
+        "seller": "Greirat",
+        "requires": null
+    },
+    "storm_ruler": {
+        "name": "Storm Ruler - Profaned Capital",
+        "area": "Profaned Capital",
+        "item": "Storm Ruler",
+        "source": "corpse",
+        "requires": null
+    },
+    "estoc": {
+        "name": "Estoc - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Estoc",
+        "source": "npc_shop",
+        "seller": "Orbeck of Vinheim",
+        "requires": null
+    },
+    "rapier": {
+        "name": "Rapier - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Rapier",
+        "source": "npc_shop",
+        "seller": "Greirat",
+        "requires": null
+    },
+    "irithyll_rapier": {
+        "name": "Irithyll Rapier - Irithyll Dungeon",
+        "area": "Irithyll Dungeon",
+        "item": "Irithyll Rapier",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "ricard_s_rapier": {
+        "name": "Ricard's Rapier - Archdragon Peak",
+        "area": "Archdragon Peak",
+        "item": "Ricard's Rapier",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "crystal_sage_s_rapier": {
+        "name": "Crystal Sage's Rapier - Road of Sacrifices",
+        "area": "Road of Sacrifices",
+        "item": "Crystal Sage's Rapier",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Crystal Sage"
+                }
+            ]
+        }
+    },
+    "crow_quills": {
+        "name": "Crow Quills - Painted World of Ariandel",
+        "area": "Painted World of Ariandel",
+        "item": "Crow Quills",
+        "source": "corpse",
+        "requires": null
+    },
+    "carthus_curved_sword": {
+        "name": "Carthus Curved Sword - Catacombs of Carthus",
+        "area": "Catacombs of Carthus",
+        "item": "Carthus Curved Sword",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "carthus_shotel": {
+        "name": "Carthus Shotel - Catacombs of Carthus",
+        "area": "Catacombs of Carthus",
+        "item": "Carthus Shotel",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "crescent_moon_sword": {
+        "name": "Crescent Moon Sword - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Crescent Moon Sword",
+        "source": "npc_shop",
+        "seller": "Patches",
+        "requires": null
+    },
+    "dancer_s_enchanted_swords": {
+        "name": "Dancer's Enchanted Swords - Lothric Castle",
+        "area": "Lothric Castle",
+        "item": "Dancer's Enchanted Swords",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Dancer of the Boreal Valley"
+                }
+            ]
+        }
+    },
+    "demon_s_scar": {
+        "name": "Demon's Scar - Kiln of the First Flame",
+        "area": "Kiln of the First Flame",
+        "item": "Demon's Scar",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Demon Prince"
+                }
+            ]
+        }
+    },
+    "falchion": {
+        "name": "Falchion - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Falchion",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "follower_sabre": {
+        "name": "Follower Sabre - Painted World of Ariandel",
+        "area": "Painted World of Ariandel",
+        "item": "Follower Sabre",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "painting_guardian_s_curved_sword": {
+        "name": "Painting Guardian's Curved Sword - Irithyll of the Boreal Valley",
+        "area": "Irithyll of the Boreal Valley",
+        "item": "Painting Guardian's Curved Sword",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "pontiff_knight_curved_sword": {
+        "name": "Pontiff Knight Curved Sword - Irithyll of the Boreal Valley",
+        "area": "Irithyll of the Boreal Valley",
+        "item": "Pontiff Knight Curved Sword",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "rotten_ghru_curved_sword": {
+        "name": "Rotten Ghru Curved Sword - Farron Keep",
+        "area": "Farron Keep",
+        "item": "Rotten Ghru Curved Sword",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "scimitar": {
+        "name": "Scimitar - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Scimitar",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "sellsword_twinblades": {
+        "name": "Sellsword Twinblades - Road of Sacrifices",
+        "area": "Road of Sacrifices",
+        "item": "Sellsword Twinblades",
+        "source": "corpse",
+        "requires": null
+    },
+    "shotel": {
+        "name": "Shotel - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Shotel",
+        "source": "npc_shop",
+        "seller": "Shrine Handmaid",
+        "requires": null
+    },
+    "storm_curved_sword": {
+        "name": "Storm Curved Sword - Archdragon Peak",
+        "area": "Archdragon Peak",
+        "item": "Storm Curved Sword",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Nameless King"
+                }
+            ]
+        }
+    },
+    "warden_twinblades": {
+        "name": "Warden Twinblades - Road of Sacrifices",
+        "area": "Road of Sacrifices",
+        "item": "Warden Twinblades",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "carthus_curved_greatsword": {
+        "name": "Carthus Curved Greatsword - Catacombs of Carthus",
+        "area": "Catacombs of Carthus",
+        "item": "Carthus Curved Greatsword",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "exile_greatsword": {
+        "name": "Exile Greatsword - Road of Sacrifices",
+        "area": "Road of Sacrifices",
+        "item": "Exile Greatsword",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "murakumo": {
+        "name": "Murakumo - Irithyll Dungeon",
+        "area": "Irithyll Dungeon",
+        "item": "Murakumo",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "old_wolf_curved_sword": {
+        "name": "Old Wolf Curved Sword - Farron Keep",
+        "area": "Farron Keep",
+        "item": "Old Wolf Curved Sword",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "harald_curved_greatsword": {
+        "name": "Harald Curved Greatsword - The Dreg Heap",
+        "area": "The Dreg Heap",
+        "item": "Harald Curved Greatsword",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "uchigatana": {
+        "name": "Uchigatana - Cemetery of Ash",
+        "area": "Cemetery of Ash",
+        "item": "Uchigatana",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "washing_pole": {
+        "name": "Washing Pole - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Washing Pole",
+        "source": "npc_shop",
+        "seller": "Shrine Handmaid",
+        "requires": null
+    },
+    "black_blade": {
+        "name": "Black Blade - Catacombs of Carthus",
+        "area": "Catacombs of Carthus",
+        "item": "Black Blade",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "chaos_blade": {
+        "name": "Chaos Blade - Untended Graves",
+        "area": "Untended Graves",
+        "item": "Chaos Blade",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "frayed_blade": {
+        "name": "Frayed Blade - Archdragon Peak",
+        "area": "Archdragon Peak",
+        "item": "Frayed Blade",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Darkeater Midir"
+                }
+            ]
+        }
+    },
+    "onikiri_and_ubadachi": {
+        "name": "Onikiri and Ubadachi - Grand Archives",
+        "area": "Grand Archives",
+        "item": "Onikiri and Ubadachi",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "darkdrift": {
+        "name": "Darkdrift - Untended Graves",
+        "area": "Untended Graves",
+        "item": "Darkdrift",
+        "source": "boss_drop",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Champion Gundyr"
+                }
+            ]
+        }
+    },
+    "bloodlust": {
+        "name": "Bloodlust - Irithyll of the Boreal Valley",
+        "area": "Irithyll of the Boreal Valley",
+        "item": "Bloodlust",
+        "source": "enemy_drop",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Pontiff Sulyvahn"
+                }
+            ]
+        }
+    },
+    "battle_axe": {
+        "name": "Battle Axe - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Battle Axe",
+        "source": "corpse",
+        "requires": null
+    },
+    "brigand_axe": {
+        "name": "Brigand Axe - Road of Sacrifices",
+        "area": "Road of Sacrifices",
+        "item": "Brigand Axe",
+        "source": "corpse",
+        "requires": null
+    },
+    "butcher_knife": {
+        "name": "Butcher Knife - Road of Sacrifices",
+        "area": "Road of Sacrifices",
+        "item": "Butcher Knife",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "hand_axe": {
+        "name": "Hand Axe - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Hand Axe",
+        "source": "corpse",
+        "requires": null
+    },
+    "thrall_axe": {
+        "name": "Thrall Axe - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Thrall Axe",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "winged_knight_twinaxes": {
+        "name": "Winged Knight Twinaxes - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Winged Knight Twinaxes",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "man_serpent_hatchet": {
+        "name": "Man Serpent Hatchet - Archdragon Peak",
+        "area": "Archdragon Peak",
+        "item": "Man Serpent Hatchet",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "eleonora": {
+        "name": "Eleonora - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Eleonora",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "black_knight_greataxe": {
+        "name": "Black Knight Greataxe - Catacombs of Carthus",
+        "area": "Catacombs of Carthus",
+        "item": "Black Knight Greataxe",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "demon_s_greataxe": {
+        "name": "Demon's Greataxe - Smouldering Lake",
+        "area": "Smouldering Lake",
+        "item": "Demon's Greataxe",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "dragonslayer_greataxe": {
+        "name": "Dragonslayer Greataxe - Lothric Castle",
+        "area": "Lothric Castle",
+        "item": "Dragonslayer Greataxe",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Dragonslayer Armour"
+                }
+            ]
+        }
+    },
+    "earth_seeker": {
+        "name": "Earth Seeker - The Ringed City",
+        "area": "The Ringed City",
+        "item": "Earth Seeker",
+        "source": "corpse",
+        "requires": null
+    },
+    "greataxe": {
+        "name": "Greataxe - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Greataxe",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "great_mace": {
+        "name": "Great Mace - Cathedral of the Deep",
+        "area": "Cathedral of the Deep",
+        "item": "Great Mace",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "yhorm_s_great_machete": {
+        "name": "Yhorm's Great Machete - Profaned Capital",
+        "area": "Profaned Capital",
+        "item": "Yhorm's Great Machete",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Yhorm the Giant"
+                }
+            ]
+        }
+    },
+    "club": {
+        "name": "Club - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Club",
+        "source": "corpse",
+        "requires": null
+    },
+    "mace": {
+        "name": "Mace - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Mace",
+        "source": "npc_shop",
+        "seller": "Shrine Handmaid",
+        "requires": null
+    },
+    "morning_star": {
+        "name": "Morning Star - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Morning Star",
+        "source": "corpse",
+        "requires": null
+    },
+    "reinforced_club": {
+        "name": "Reinforced Club - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Reinforced Club",
+        "source": "npc_shop",
+        "seller": "Greirat",
+        "requires": null
+    },
+    "warpick": {
+        "name": "Warpick - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Warpick",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "blacksmith_hammer": {
+        "name": "Blacksmith Hammer - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Blacksmith Hammer",
+        "source": "corpse",
+        "requires": null
+    },
+    "drang_hammers": {
+        "name": "Drang Hammers - Irithyll of the Boreal Valley",
+        "area": "Irithyll of the Boreal Valley",
+        "item": "Drang Hammers",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "heysel_pick": {
+        "name": "Heysel Pick - Road of Sacrifices",
+        "area": "Road of Sacrifices",
+        "item": "Heysel Pick",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "dragon_tooth": {
+        "name": "Dragon Tooth - Lothric Castle",
+        "area": "Lothric Castle",
+        "item": "Dragon Tooth",
+        "source": "corpse",
+        "requires": null
+    },
+    "gargoyle_flame_hammer": {
+        "name": "Gargoyle Flame Hammer - Grand Archives",
+        "area": "Grand Archives",
+        "item": "Gargoyle Flame Hammer",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "great_club": {
+        "name": "Great Club - Road of Sacrifices",
+        "area": "Road of Sacrifices",
+        "item": "Great Club",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "ledo_s_great_hammer": {
+        "name": "Ledo's Great Hammer - The Ringed City",
+        "area": "The Ringed City",
+        "item": "Ledo's Great Hammer",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "morne_s_great_hammer": {
+        "name": "Morne's Great Hammer - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Morne's Great Hammer",
+        "source": "npc_shop",
+        "seller": "Cornyx of the Great Swamp",
+        "requires": null
+    },
+    "old_kings_great_hammer": {
+        "name": "Old King's Great Hammer - Smouldering Lake",
+        "area": "Smouldering Lake",
+        "item": "Old King's Great Hammer",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Old Demon King"
+                }
+            ]
+        }
+    },
+    "smough_s_great_hammer": {
+        "name": "Smough's Great Hammer - Irithyll of the Boreal Valley",
+        "area": "Irithyll of the Boreal Valley",
+        "item": "Smough's Great Hammer",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Pontiff Sulyvahn"
+                }
+            ]
+        }
+    },
+    "vordt_s_great_hammer": {
+        "name": "Vordt's Great Hammer - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Vordt's Great Hammer",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Vordt of the Boreal Valley"
+                }
+            ]
+        }
+    },
+    "spotted_whip": {
+        "name": "Spotted Whip - Irithyll of the Boreal Valley",
+        "area": "Irithyll of the Boreal Valley",
+        "item": "Spotted Whip",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "halberd": {
+        "name": "Halberd - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Halberd",
+        "source": "npc_shop",
+        "seller": "Shrine Handmaid",
+        "requires": null
+    },
+    "lucerne": {
+        "name": "Lucerne - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Lucerne",
+        "source": "corpse",
+        "requires": null
+    },
+    "red_hilted_halberd": {
+        "name": "Red Hilted Halberd - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Red Hilted Halberd",
+        "source": "corpse",
+        "requires": null
+    },
+    "winged_knight_halberd": {
+        "name": "Winged Knight Halberd - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Winged Knight Halberd",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "glaive": {
+        "name": "Glaive - Cathedral of the Deep",
+        "area": "Cathedral of the Deep",
+        "item": "Glaive",
+        "source": "corpse",
+        "requires": null
+    },
+    "gundyr_s_halberd": {
+        "name": "Gundyr's Halberd - Untended Graves",
+        "area": "Untended Graves",
+        "item": "Gundyr's Halberd",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Champion Gundyr"
+                }
+            ]
+        }
+    },
+    "immolation_tinder": {
+        "name": "Immolation Tinder - Road of Sacrifices",
+        "area": "Road of Sacrifices",
+        "item": "Immolation Tinder",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "black_knight_glaive": {
+        "name": "Black Knight Glaive - Smouldering Lake",
+        "area": "Smouldering Lake",
+        "item": "Black Knight Glaive",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "crescent_axe": {
+        "name": "Crescent Axe - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Crescent Axe",
+        "source": "npc_shop",
+        "seller": "Shrine Handmaid",
+        "requires": null
+    },
+    "splitleaf_greatsword": {
+        "name": "Splitleaf Greatsword - The Ringed City",
+        "area": "The Ringed City",
+        "item": "Splitleaf Greatsword",
+        "source": "npc_shop",
+        "seller": "Mausoleum Lookout",
+        "requires": null
+    },
+    "crucifix_of_the_mad_king": {
+        "name": "Crucifix of the Mad King - The Ringed City",
+        "area": "The Ringed City",
+        "item": "Crucifix of the Mad King",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "pike": {
+        "name": "Pike - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Pike",
+        "source": "npc_shop",
+        "seller": "Greirat",
+        "requires": null
+    },
+    "greatlance": {
+        "name": "Greatlance - Lothric Castle",
+        "area": "Lothric Castle",
+        "item": "Greatlance",
+        "source": "corpse",
+        "requires": null
+    },
+    "lothric_knight_long_spear": {
+        "name": "Lothric Knight Long Spear - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Lothric Knight Long Spear",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "lothric_war_banner": {
+        "name": "Lothric War Banner - The Ringed City",
+        "area": "The Ringed City",
+        "item": "Lothric War Banner",
+        "source": "corpse",
+        "requires": null
+    },
+    "ringed_knight_spear": {
+        "name": "Ringed Knight Spear - The Ringed City",
+        "area": "The Ringed City",
+        "item": "Ringed Knight Spear",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "spear": {
+        "name": "Spear - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Spear",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "partizan": {
+        "name": "Partizan - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Partizan",
+        "source": "corpse",
+        "requires": null
+    },
+    "winged_spear": {
+        "name": "Winged Spear - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Winged Spear",
+        "source": "npc_shop",
+        "seller": "Greirat",
+        "requires": null
+    },
+    "saint_bident": {
+        "name": "Saint Bident - Cathedral of the Deep",
+        "area": "Cathedral of the Deep",
+        "item": "Saint Bident",
+        "source": "corpse",
+        "requires": null
+    },
+    "four_pronged_plow": {
+        "name": "Four-Pronged Plow - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Four-Pronged Plow",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "dragonslayer_spear": {
+        "name": "Dragonslayer Spear - Lothric Castle",
+        "area": "Lothric Castle",
+        "item": "Dragonslayer Spear",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Dragonslayer Armour"
+                }
+            ]
+        }
+    },
+    "dragonslayer_swordspear": {
+        "name": "Dragonslayer Swordspear - Archdragon Peak",
+        "area": "Archdragon Peak",
+        "item": "Dragonslayer Swordspear",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Nameless King"
+                }
+            ]
+        }
+    },
+    "follower_javelin": {
+        "name": "Follower Javelin - Painted World of Ariandel",
+        "area": "Painted World of Ariandel",
+        "item": "Follower Javelin",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "arstor_s_spear": {
+        "name": "Arstor's Spear - Road of Sacrifices",
+        "area": "Road of Sacrifices",
+        "item": "Arstor's Spear",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Curse-rotted Greatwood"
+                }
+            ]
+        }
+    },
+    "rotten_ghru_spear": {
+        "name": "Rotten Ghru Spear - Farron Keep",
+        "area": "Farron Keep",
+        "item": "Rotten Ghru Spear",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "tailbone_spear": {
+        "name": "Tailbone Spear - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Tailbone Spear",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "yorshka_s_spear": {
+        "name": "Yorshka's Spear - Irithyll of the Boreal Valley",
+        "area": "Irithyll of the Boreal Valley",
+        "item": "Yorshka's Spear",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "great_corvian_scythe": {
+        "name": "Great Corvian Scythe - Road of Sacrifices",
+        "area": "Road of Sacrifices",
+        "item": "Great Corvian Scythe",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "great_scythe": {
+        "name": "Great Scythe - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Great Scythe",
+        "source": "corpse",
+        "requires": null
+    },
+    "pontiff_knight_great_scythe": {
+        "name": "Pontiff Knight Great Scythe - Irithyll of the Boreal Valley",
+        "area": "Irithyll of the Boreal Valley",
+        "item": "Pontiff Knight Great Scythe",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "friede_s_great_scythe": {
+        "name": "Friede's Great Scythe - Painted World of Ariandel",
+        "area": "Painted World of Ariandel",
+        "item": "Friede's Great Scythe",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Sister Friede"
+                }
+            ]
+        }
+    },
+    "whip": {
+        "name": "Whip - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Whip",
+        "source": "corpse",
+        "requires": null
+    },
+    "notched_whip": {
+        "name": "Notched Whip - Undead Settlement",
+        "area": "Undead Settlement",
+        "item": "Notched Whip",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "witch_s_locks": {
+        "name": "Witch's Locks - Lothric Castle",
+        "area": "Lothric Castle",
+        "item": "Witch's Locks",
+        "source": "corpse",
+        "requires": null
+    },
+    "rose_of_ariandel": {
+        "name": "Rose of Ariandel - Painted World of Ariandel",
+        "area": "Painted World of Ariandel",
+        "item": "Rose of Ariandel",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Sister Friede"
+                }
+            ]
+        }
+    },
+    "short_bow": {
+        "name": "Short Bow - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Short Bow",
+        "source": "npc_shop",
+        "seller": "Greirat",
+        "requires": null
+    },
+    "longbow": {
+        "name": "Longbow - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Longbow",
+        "source": "corpse",
+        "requires": null
+    },
+    "composite_bow": {
+        "name": "Composite Bow - Firelink Shrine",
+        "area": "Firelink Shrine",
+        "item": "Composite Bow",
+        "source": "npc_shop",
+        "seller": "Greirat",
+        "requires": null
+    },
+    "black_bow_of_pharis": {
+        "name": "Black Bow of Pharis - Farron Keep",
+        "area": "Farron Keep",
+        "item": "Black Bow of Pharis",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "darkmoon_longbow": {
+        "name": "Darkmoon Longbow - Irithyll of the Boreal Valley",
+        "area": "Irithyll of the Boreal Valley",
+        "item": "Darkmoon Longbow",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "dragonrider_bow": {
+        "name": "Dragonrider Bow - Road of Sacrifices",
+        "area": "Road of Sacrifices",
+        "item": "Dragonrider Bow",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Curse-rotted Greatwood"
+                }
+            ]
+        }
+    },
+    "white_birch_bow": {
+        "name": "White Birch Bow - The Ringed City",
+        "area": "The Ringed City",
+        "item": "White Birch Bow",
+        "source": "corpse",
+        "requires": null
+    },
+    "dragonslayer_greatbow": {
+        "name": "Dragonslayer Greatbow - Irithyll of the Boreal Valley",
+        "area": "Irithyll of the Boreal Valley",
+        "item": "Dragonslayer Greatbow",
+        "source": "corpse",
+        "requires": null
+    },
+    "onislayer_greatbow": {
+        "name": "Onislayer Greatbow - Irithyll Dungeon",
+        "area": "Irithyll Dungeon",
+        "item": "Onislayer Greatbow",
+        "source": "corpse",
+        "requires": null
+    },
+    "millwood_greatbow": {
+        "name": "Millwood Greatbow - Painted World of Ariandel",
+        "area": "Painted World of Ariandel",
+        "item": "Millwood Greatbow",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "light_crossbow": {
+        "name": "Light Crossbow - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Light Crossbow",
+        "source": "npc_shop",
+        "seller": "Greirat",
+        "requires": null
+    },
+    "arbalest": {
+        "name": "Arbalest - Cathedral of the Deep",
+        "area": "Cathedral of the Deep",
+        "item": "Arbalest",
+        "source": "corpse",
+        "requires": null
+    },
+    "knight_s_crossbow": {
+        "name": "Knight's Crossbow - High Wall of Lothric",
+        "area": "High Wall of Lothric",
+        "item": "Knight's Crossbow",
+        "source": "npc_shop",
+        "seller": "Greirat",
+        "requires": null
+    },
+    "heavy_crossbow": {
+        "name": "Heavy Crossbow - Irithyll of the Boreal Valley",
+        "area": "Irithyll of the Boreal Valley",
+        "item": "Heavy Crossbow",
+        "source": "corpse",
+        "requires": null
+    },
+    "avelyn": {
+        "name": "Avelyn - Grand Archives",
+        "area": "Grand Archives",
+        "item": "Avelyn",
+        "source": "corpse",
+        "requires": null
+    },
+    "sniper_crossbow": {
+        "name": "Sniper Crossbow - Cathedral of the Deep",
+        "area": "Cathedral of the Deep",
+        "item": "Sniper Crossbow",
+        "source": "corpse",
+        "requires": null
+    },
+    "man_serpent_crossbow": {
+        "name": "Man Serpent Crossbow - Archdragon Peak",
+        "area": "Archdragon Peak",
+        "item": "Man Serpent Crossbow",
+        "source": "enemy_drop",
+        "requires": null
+    },
+    "repeating_crossbow": {
+        "name": "Repeating Crossbow - The Ringed City",
+        "area": "The Ringed City",
+        "item": "Repeating Crossbow",
+        "source": "boss_transposition",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Slave Knight Gael"
+                }
+            ]
+        }
+    }
+}

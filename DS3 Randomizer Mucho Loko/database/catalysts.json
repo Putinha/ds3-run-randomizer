@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Sorcerer's Staff",
+        "type": "staff"
+    },
+    {
+        "name": "Court Sorcerer's Staff",
+        "type": "staff"
+    },
+    {
+        "name": "Pyromancy Flame",
+        "type": "pyromancy_flame"
+    },
+    {
+        "name": "Canvas Talisman",
+        "type": "talisman"
+    },
+    {
+        "name": "Saint's Talisman",
+        "type": "talisman"
+    }
+]

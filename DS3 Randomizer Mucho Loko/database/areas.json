@@ -1,0 +1,378 @@
+{
+    "cemetery_of_ash": {
+        "name": "Cemetery of Ash",
+        "requires": null
+    },
+    "firelink_shrine": {
+        "name": "Firelink Shrine",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Iudex Gundyr"
+                }
+            ]
+        }
+    },
+    "high_wall_of_lothric": {
+        "name": "High Wall of Lothric",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Firelink Shrine"
+                }
+            ]
+        }
+    },
+    "undead_settlement": {
+        "name": "Undead Settlement",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "High Wall of Lothric"
+                },
+                {
+                    "type": "boss_defeated",
+                    "target": "Vordt of the Boreal Valley"
+                }
+            ]
+        }
+    },
+    "road_of_sacrifices": {
+        "name": "Road of Sacrifices",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Undead Settlement"
+                }
+            ]
+        }
+    },
+    "crucifixion_woods": {
+        "name": "Crucifixion Woods",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Road of Sacrifices"
+                }
+            ]
+        }
+    },
+    "farron_keep": {
+        "name": "Farron Keep",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Road of Sacrifices"
+                }
+            ]
+        }
+    },
+    "cathedral_of_the_deep": {
+        "name": "Cathedral of the Deep",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Road of Sacrifices"
+                }
+            ]
+        }
+    },
+    "catacombs_of_carthus": {
+        "name": "Catacombs of Carthus",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Farron Keep"
+                },
+                {
+                    "type": "boss_defeated",
+                    "target": "Abyss Watchers"
+                }
+            ]
+        }
+    },
+    "smouldering_lake": {
+        "name": "Smouldering Lake",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Catacombs of Carthus"
+                }
+            ]
+        }
+    },
+    "irithyll_of_the_boreal_valley": {
+        "name": "Irithyll of the Boreal Valley",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Catacombs of Carthus"
+                },
+                {
+                    "type": "boss_defeated",
+                    "target": "High Lord Wolnir"
+                }
+            ]
+        }
+    },
+    "irithyll_dungeon": {
+        "name": "Irithyll Dungeon",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Irithyll of the Boreal Valley"
+                }
+            ]
+        }
+    },
+    "profane_capital": {
+        "name": "Profaned Capital",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Irithyll Dungeon"
+                }
+            ]
+        }
+    },
+    "consumed_kings_garden": {
+        "name": "Consumed King's Garden",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Irithyll Dungeon"
+                },
+                {
+                    "type": "boss_defeated",
+                    "target": "Dancer of the Boreal Valley"
+                }
+            ]
+        }
+    },
+    "lothric_castle": {
+        "name": "Lothric Castle",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "High Wall of Lothric"
+                },
+                {
+                    "type": "boss_defeated",
+                    "target": "Dancer of the Boreal Valley"
+                }
+            ]
+        }
+    },
+    "grand_archives": {
+        "name": "Grand Archives",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Lothric Castle"
+                }
+            ]
+        }
+    },
+    "archdragon_peak": {
+        "name": "Archdragon Peak",
+        "note": "Requires Path of the Dragon gesture as an approximation of the gesture-use trigger at Irithyll Dungeon; actual event trigger will be modeled later.",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Consumed King's Garden"
+                },
+                {
+                    "type": "area_reached",
+                    "target": "Irithyll Dungeon"
+                },
+                {
+                    "type": "boss_defeated",
+                    "target": "Oceiros, the Consumed King"
+                },
+                {
+                    "type": "gesture_obtained",
+                    "target": "Path of the Dragon"
+                }
+            ]
+        }
+    },
+    "kiln_of_the_first_flame": {
+        "name": "Kiln of the First Flame",
+        "requires": {
+            "all": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Abyss Watchers"
+                },
+                {
+                    "type": "boss_defeated",
+                    "target": "Yhorm the Giant"
+                },
+                {
+                    "type": "boss_defeated",
+                    "target": "Aldrich, Devourer of Gods"
+                },
+                {
+                    "type": "boss_defeated",
+                    "target": "Dancer of the Boreal Valley"
+                }
+            ]
+        }
+    },
+    "untended_graves": {
+        "name": "Untended Graves",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Consumed King's Garden"
+                },
+                {
+                    "type": "boss_defeated",
+                    "target": "Oceiros, the Consumed King"
+                }
+            ]
+        }
+    },
+    "painted_world_of_ariandel": {
+        "name": "Painted World of Ariandel",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Cathedral of the Deep"
+                }
+            ]
+        }
+    },
+    "corvian_settlement": {
+        "name": "Corvian Settlement",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Painted World of Ariandel"
+                }
+            ]
+        }
+    },
+    "ariandel_chapel": {
+        "name": "Ariandel Chapel",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Corvian Settlement"
+                }
+            ]
+        }
+    },
+    "champions_gravetender_area": {
+        "name": "Champion's Gravetender area",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Ariandel Chapel"
+                }
+            ]
+        }
+    },
+    "the_dreg_heap": {
+        "name": "The Dreg Heap",
+        "requires": {
+            "any": [
+                {
+                    "type": "boss_defeated",
+                    "target": "Sister Friede"
+                },
+                {
+                    "type": "area_reached",
+                    "target": "Kiln of the First Flame"
+                }
+            ]
+        }
+    },
+    "earthen_peak_ruins": {
+        "name": "Earthen Peak Ruins",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "The Dreg Heap"
+                }
+            ]
+        }
+    },
+    "the_ringed_city": {
+        "name": "The Ringed City",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Earthen Peak Ruins"
+                }
+            ]
+        }
+    },
+    "the_ringed_city_streets": {
+        "name": "The Ringed City Streets",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "The Ringed City"
+                }
+            ]
+        }
+    },
+    "shared_grave": {
+        "name": "Shared Grave",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "The Ringed City Streets"
+                }
+            ]
+        }
+    },
+    "church_of_filianore": {
+        "name": "Church of Filianore",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Shared Grave"
+                }
+            ]
+        }
+    },
+    "filianores_rest": {
+        "name": "Filianore's Rest",
+        "requires": {
+            "all": [
+                {
+                    "type": "area_reached",
+                    "target": "Church of Filianore"
+                }
+            ]
+        }
+    }
+}

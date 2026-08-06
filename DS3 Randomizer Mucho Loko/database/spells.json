@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Soul Arrow",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Great Soul Arrow",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Fireball",
+        "school": "pyromancy",
+        "catalyst_type": "pyromancy_flame"
+    },
+    {
+        "name": "Fire Orb",
+        "school": "pyromancy",
+        "catalyst_type": "pyromancy_flame"
+    },
+    {
+        "name": "Heal",
+        "school": "miracle",
+        "catalyst_type": "talisman"
+    },
+    {
+        "name": "Lightning Spear",
+        "school": "miracle",
+        "catalyst_type": "talisman"
+    }
+]

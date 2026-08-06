@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DS3 Randomizer</title>
+
+<style>
+:root{color-scheme:dark}
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    background:#111;
+    color:#eee;
+    font:15px system-ui,sans-serif;
+}
+
+main{
+    width:min(900px,92%);
+    margin:40px auto;
+}
+
+.panel{
+    background:#191919;
+    border:1px solid #333;
+    border-radius:10px;
+    padding:20px;
+    margin:18px 0;
+}
+
+.options{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:10px;
+}
+
+.option{
+    padding:12px;
+    border:1px solid #333;
+    border-radius:7px;
+}
+
+.option.disabled{
+    opacity:.4;
+}
+
+.seed{
+    width:100%;
+    max-width:360px;
+    padding:11px;
+    background:#111;
+    border:1px solid #444;
+    color:#fff;
+    border-radius:6px;
+}
+
+button{
+    margin-top:16px;
+    padding:11px 22px;
+    border:0;
+    border-radius:6px;
+    background:#ddd;
+    color:#111;
+    font-weight:700;
+    cursor:pointer;
+}
+
+button:disabled{
+    opacity:.5;
+}
+
+.ok{
+    color:#8fd18f;
+}
+
+.error{
+    color:#f88;
+}
+
+.weapon{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    margin-top:25px;
+}
+
+.weapon img{
+    width:128px;
+    height:128px;
+    border:1px solid #444;
+    border-radius:8px;
+    background:#222;
+}
+
+.weapon h2{
+    margin:0;
+    font-size:30px;
+}
+</style>
+</head>
+
+<body>
+
+<main>
+
+<h1>Dark Souls III Randomizer</h1>
+
+<section class="panel">
+
+<h2>Randomization</h2>
+
+<div id="categories" class="options"></div>
+
+<h2>Seed</h2>
+
+<input
+id="seed"
+class="seed"
+type="number"
+placeholder="Random Seed">
+
+<br>
+
+<button id="generate">
+Generate Randomizer
+</button>
+
+<div id="status"></div>
+
+</section>
+
+<section id="results" class="panel" hidden>
+
+<h2>Randomized Weapon</h2>
+
+<div id="summary"></div>
+
+<div class="weapon">
+
+<img
+id="weapon-image"
+src="test.png"
+alt="Weapon">
+
+<h2 id="weapon-name"></h2>
+
+</div>
+
+</section>
+
+</main>
+
+<script>
+
+const categories=document.getElementById("categories");
+const seed=document.getElementById("seed");
+const button=document.getElementById("generate");
+const status=document.getElementById("status");
+const results=document.getElementById("results");
+const summary=document.getElementById("summary");
+const weaponName=document.getElementById("weapon-name");
+const weaponImage=document.getElementById("weapon-image");
+
+async function init(){
+
+    const r=await fetch("/api/config");
+    const data=await r.json();
+
+    categories.innerHTML=data.categories.map(c=>`
+<label class="option ${c.available?"":"disabled"}">
+<input
+type="checkbox"
+data-id="${c.id}"
+${c.available?"checked":"disabled"}>
+${c.name}${c.available?"":" (coming soon)"}
+</label>`).join("");
+
+}
+
+async function generate(){
+
+    const checked=[...document.querySelectorAll("#categories input:checked")]
+        .map(x=>x.dataset.id);
+
+    button.disabled=true;
+
+    status.textContent="Generating...";
+
+    results.hidden=true;
+
+    try{
+
+        let body={
+            categories:checked
+        };
+
+        if(seed.value.trim())
+            body.seed=Number(seed.value);
+
+        const r=await fetch("/api/randomize",{
+            method:"POST",
+            headers:{
+                "Content-Type":"application/json"
+            },
+            body:JSON.stringify(body)
+        });
+
+        const data=await r.json();
+
+        if(!r.ok)
+            throw new Error(data.error);
+
+        const weapon=data.weapon;
+
+        if(!weapon || !weapon.randomized){
+            throw new Error("Randomizer returned no weapon.");
+}
+
+        summary.innerHTML=`
+<p>
+<strong>Seed:</strong> ${data.seed}
+&nbsp;
+<span class="ok">✓ Valid progression</span>
+</p>`;
+
+        weaponName.textContent=weapon.randomized;
+
+        // TEMPORÁRIO
+        weaponImage.src="test.png";
+
+        results.hidden=false;
+
+        status.textContent="Done.";
+
+    }
+
+    catch(e){
+
+        status.innerHTML=`<span class="error">${e.message}</span>`;
+
+    }
+
+    finally{
+
+        button.disabled=false;
+
+    }
+
+}
+
+button.onclick=generate;
+
+init();
+
+</script>
+
+</body>
+</html>
