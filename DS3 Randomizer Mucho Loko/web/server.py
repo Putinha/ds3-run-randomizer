@@ -17,6 +17,7 @@ if ROOT not in sys.path:
 
 
 from randomizer import generate_valid_seed, load_database
+from full_run import generate_full_run
 
 
 HOST = "127.0.0.1"
@@ -151,6 +152,10 @@ class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
         path = urlparse(self.path).path
 
+        if path == "/api/full-run":
+            self.handle_full_run()
+            return
+
         if path != "/api/randomize":
             self.send_json(
                 {"error": "Not found"},
@@ -251,6 +256,64 @@ class Handler(BaseHTTPRequestHandler):
                 {
                     "error":
                     f"Randomization failed: {exc}"
+                },
+                500
+            )
+
+    def handle_full_run(self):
+        try:
+            length = int(
+                self.headers.get(
+                    "Content-Length",
+                    "0"
+                )
+            )
+
+            if length > 4096:
+                raise ValueError(
+                    "Request too large"
+                )
+
+            raw_body = self.rfile.read(length)
+
+            data = json.loads(
+                raw_body or b"{}"
+            )
+
+            seed = data.get("seed")
+
+            if seed in (None, ""):
+                seed = None
+
+            result = generate_full_run(
+                seed=seed,
+                base_dir=ROOT
+            )
+
+            self.send_json(result)
+
+        except (
+            TypeError,
+            ValueError,
+            json.JSONDecodeError
+        ) as exc:
+
+            self.send_json(
+                {"error": str(exc)},
+                400
+            )
+
+        except Exception as exc:
+
+            print(
+                "SERVER ERROR:",
+                repr(exc)
+            )
+
+            self.send_json(
+                {
+                    "error":
+                    f"Full run generation failed: {exc}"
                 },
                 500
             )
