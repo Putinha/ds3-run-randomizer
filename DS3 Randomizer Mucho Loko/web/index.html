@@ -165,6 +165,109 @@ button:disabled{
         grid-template-columns:1fr;
     }
 }
+
+.full-run-rings{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:16px;
+    margin-top:12px;
+}
+
+.full-run-ring{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:6px;
+    padding:14px;
+    background:#111;
+    border:1px solid #333;
+    border-radius:8px;
+}
+
+.full-run-ring img{
+    width:96px;
+    height:96px;
+    object-fit:contain;
+    background:#222;
+    border-radius:6px;
+}
+
+.full-run-ring span{
+    color:#aaa;
+}
+
+@media(max-width:650px){
+    .full-run-rings{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+.full-run-magic{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:16px;
+    margin-top:12px;
+}
+
+.full-run-magic-item{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:6px;
+    padding:14px;
+    background:#111;
+    border:1px solid #333;
+    border-radius:8px;
+}
+
+.full-run-magic-item img{
+    width:128px;
+    height:128px;
+    object-fit:contain;
+    background:#222;
+    border-radius:6px;
+}
+
+.full-run-magic-item span{
+    color:#aaa;
+}
+
+@media(max-width:650px){
+    .full-run-magic{
+        grid-template-columns:1fr;
+    }
+}
+.full-run-shield{
+    display:flex;
+    justify-content:center;
+    margin-top:12px;
+}
+
+.full-run-shield-item{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:6px;
+    padding:14px;
+    background:#111;
+    border:1px solid #333;
+    border-radius:8px;
+    min-width:180px;
+}
+
+.full-run-shield-item img{
+    width:128px;
+    height:128px;
+    object-fit:contain;
+    background:#222;
+    border-radius:6px;
+}
+
+.full-run-shield-item span{
+    color:#aaa;
+}
 </style>
 </head>
 
@@ -260,6 +363,19 @@ function getWeaponImage(name) {
 
     return "/static/images/weapons/" + filename + ".png";
 }
+function getRingImage(name) {
+    if (!name) {
+        return "test.png";
+    }
+
+    const filename = name
+        .toLowerCase()
+        .replaceAll(" ", "_")
+        .replaceAll("'", "_")
+        .replaceAll("-", "_");
+
+    return "/static/images/rings/" + filename + ".png";
+}
 const fullRunResults=document.getElementById("full-run-results");
 const fullRunSummary=document.getElementById("full-run-summary");
 const fullRunContent=document.getElementById("full-run-content");
@@ -325,40 +441,159 @@ alt="${safeValue(data.weapons.additional[1])}">
 </div>
 `;
     
-    // Magic section
-    html += `
+// Magic section
+html += `
 <div class="result-section">
 <h3>Magic</h3>
-<ul>
-<li><strong>Spell:</strong> ${safeValue(data.magic.spell)}</li>
-<li><strong>School:</strong> ${safeValue(data.magic.school)}</li>
-<li><strong>Catalyst:</strong> ${safeValue(data.magic.catalyst)}</li>
-</ul>
+
+<div class="full-run-magic">
+
+<div class="full-run-magic-item">
+<img
+src="${getMagicImage(data.magic && data.magic.spell)}"
+alt="${safeValue(data.magic && data.magic.spell)}">
+
+<strong>Spell</strong>
+<span>${safeValue(data.magic && data.magic.spell)}</span>
+
+</div>
+
+<div class="full-run-magic-item">
+<img
+src="${getCatalystImage(data.magic && data.magic.catalyst)}"
+alt="${safeValue(data.magic && data.magic.catalyst)}">
+
+<strong>Catalyst</strong>
+<span>${safeValue(data.magic && data.magic.catalyst)}</span>
+
+</div>
+
+</div>
+
+<p>
+<strong>School:</strong>
+${safeValue(data.magic && data.magic.school)}
+</p>
+
 </div>
 `;
     
-    // Shield section
-    html += `
+// Shield section
+html += `
 <div class="result-section">
 <h3>Shield</h3>
-<ul>
-<li>${safeValue(data.shield)}</li>
-</ul>
+
+${
+    data.shield
+    ? `
+    <div class="full-run-shield">
+
+        <div class="full-run-shield-item">
+            <img
+                src="${getShieldImage(data.shield)}"
+                alt="${safeValue(data.shield)}">
+
+            <strong>Shield</strong>
+            <span>${safeValue(data.shield)}</span>
+        </div>
+
+    </div>
+    `
+    : `
+    <p><strong>Shield:</strong> None</p>
+    `
+}
+
 </div>
 `;
     
     // Rings section
-    html += `
+html += `
 <div class="result-section">
 <h3>Rings</h3>
-<ul>
-<li><strong>Ring #1:</strong> ${safeValue(data.rings[0])}</li>
-<li><strong>Ring #2:</strong> ${safeValue(data.rings[1])}</li>
-<li><strong>Ring #3:</strong> ${safeValue(data.rings[2])}</li>
-<li><strong>Ring #4:</strong> ${safeValue(data.rings[3])}</li>
-</ul>
+
+<div class="full-run-rings">
+
+<div class="full-run-ring">
+<img
+src="${getRingImage(data.rings[0])}"
+alt="${safeValue(data.rings[0])}">
+<strong>Ring #1</strong>
+<span>${safeValue(data.rings[0])}</span>
+</div>
+
+<div class="full-run-ring">
+<img
+src="${getRingImage(data.rings[1])}"
+alt="${safeValue(data.rings[1])}">
+<strong>Ring #2</strong>
+<span>${safeValue(data.rings[1])}</span>
+</div>
+
+<div class="full-run-ring">
+<img
+src="${getRingImage(data.rings[2])}"
+alt="${safeValue(data.rings[2])}">
+<strong>Ring #3</strong>
+<span>${safeValue(data.rings[2])}</span>
+</div>
+
+<div class="full-run-ring">
+<img
+src="${getRingImage(data.rings[3])}"
+alt="${safeValue(data.rings[3])}">
+<strong>Ring #4</strong>
+<span>${safeValue(data.rings[3])}</span>
+</div>
+
+</div>
 </div>
 `;
+
+    // Magic section
+function getMagicImage(name) {
+    if (!name) {
+        return "test.png";
+    }
+
+    const filename = name
+        .toLowerCase()
+        .replaceAll(" ", "_")
+        .replaceAll("'", "_")
+        .replaceAll("-", "_");
+
+    return "/static/images/magic/" + filename + ".png";
+}
+
+    // Catalyst section
+function getCatalystImage(name) {
+    if (!name) {
+        return "test.png";
+    }
+
+    const filename = name
+        .toLowerCase()
+        .replaceAll(" ", "_")
+        .replaceAll("'", "_")
+        .replaceAll("-", "_");
+
+    return "/static/images/catalysts/" + filename + ".png";
+}
+
+    // Shield section
+function getShieldImage(name) {
+    if (!name) {
+        return null;
+    }
+
+    const filename = name
+        .toLowerCase()
+        .replaceAll(" ", "_")
+        .replaceAll("'", "_")
+        .replaceAll("-", "_");
+
+    return "/static/images/shields/" + filename + ".png";
+}
     
     // Character section
     html += `
