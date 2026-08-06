@@ -124,6 +124,47 @@ button:disabled{
     border-radius:8px;
     padding:15px;
 }
+
+.full-run-weapons{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:16px;
+    margin-top:12px;
+}
+
+.full-run-weapon{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:6px;
+    padding:14px;
+    background:#111;
+    border:1px solid #333;
+    border-radius:8px;
+}
+
+.full-run-weapon img{
+    width:128px;
+    height:128px;
+    object-fit:contain;
+    background:#222;
+    border-radius:6px;
+}
+
+.full-run-weapon strong{
+    margin-top:4px;
+}
+
+.full-run-weapon span{
+    color:#aaa;
+}
+
+@media(max-width:650px){
+    .full-run-weapons{
+        grid-template-columns:1fr;
+    }
+}
 </style>
 </head>
 
@@ -206,6 +247,19 @@ const summary=document.getElementById("summary");
 const weaponName=document.getElementById("weapon-name");
 const weaponImage=document.getElementById("weapon-image");
 const fullRunCheckbox=document.getElementById("full-run-checkbox");
+function getWeaponImage(name) {
+    if (!name) {
+        return "test.png";
+    }
+
+    const filename = name
+        .toLowerCase()
+        .replaceAll(" ", "_")
+        .replaceAll("'", "_")
+        .replaceAll("-", "_");
+
+    return "/static/images/weapons/" + filename + ".png";
+}
 const fullRunResults=document.getElementById("full-run-results");
 const fullRunSummary=document.getElementById("full-run-summary");
 const fullRunContent=document.getElementById("full-run-content");
@@ -237,14 +291,37 @@ function displayFullRun(data) {
     let html = "";
     
     // Weapons section
-    html += `
+html += `
 <div class="result-section">
 <h3>Weapons</h3>
-<ul>
-<li><strong>Starting Weapon:</strong> ${safeValue(data.weapons.starting)}</li>
-<li><strong>Weapon #2:</strong> ${safeValue(data.weapons.additional[0])}</li>
-<li><strong>Weapon #3:</strong> ${safeValue(data.weapons.additional[1])}</li>
-</ul>
+
+<div class="full-run-weapons">
+
+<div class="full-run-weapon">
+<img
+src="${getWeaponImage(data.weapons.starting)}"
+alt="${safeValue(data.weapons.starting)}">
+<strong>Starting Weapon</strong>
+<span>${safeValue(data.weapons.starting)}</span>
+</div>
+
+<div class="full-run-weapon">
+<img
+src="${getWeaponImage(data.weapons.additional[0])}"
+alt="${safeValue(data.weapons.additional[0])}">
+<strong>Weapon #2</strong>
+<span>${safeValue(data.weapons.additional[0])}</span>
+</div>
+
+<div class="full-run-weapon">
+<img
+src="${getWeaponImage(data.weapons.additional[1])}"
+alt="${safeValue(data.weapons.additional[1])}">
+<strong>Weapon #3</strong>
+<span>${safeValue(data.weapons.additional[1])}</span>
+</div>
+
+</div>
 </div>
 `;
     
@@ -361,7 +438,7 @@ async function generate(){
 
             weaponName.textContent=weapon.randomized;
 
-            weaponImage.src="test.png";
+            weaponImage.src=getWeaponImage(weapon.randomized);
 
             results.hidden=false;
         }
