@@ -406,38 +406,35 @@ function displayFullRun(data) {
     
     let html = "";
     
-    // Starting Class section
+    // Weapons section
 html += `
 <div class="result-section">
-<h3>Starting Class</h3>
-<p><strong>${safeValue(data.starting_class)}</strong></p>
-</div>
-`;
-
-// Character section
-html += `
-<div class="result-section">
-<h3>Character</h3>
-<ul>
-<li><strong>Final Level:</strong> ${safeValue(data.character.final_level)}</li>
-</ul>
-</div>
-`;
-
-// Final Weapon section
-html += `
-<div class="result-section">
-<h3>Final Weapon</h3>
+<h3>Weapons</h3>
 
 <div class="full-run-weapons">
 
 <div class="full-run-weapon">
 <img
-src="${getWeaponImage(data.weapon)}"
-alt="${safeValue(data.weapon)}">
+src="${getWeaponImage(data.weapons.starting)}"
+alt="${safeValue(data.weapons.starting)}">
+<strong>Starting Weapon</strong>
+<span>${safeValue(data.weapons.starting)}</span>
+</div>
 
-<strong>Final Weapon</strong>
-<span>${safeValue(data.weapon)}</span>
+<div class="full-run-weapon">
+<img
+src="${getWeaponImage(data.weapons.additional[0])}"
+alt="${safeValue(data.weapons.additional[0])}">
+<strong>Weapon #2</strong>
+<span>${safeValue(data.weapons.additional[0])}</span>
+</div>
+
+<div class="full-run-weapon">
+<img
+src="${getWeaponImage(data.weapons.additional[1])}"
+alt="${safeValue(data.weapons.additional[1])}">
+<strong>Weapon #3</strong>
+<span>${safeValue(data.weapons.additional[1])}</span>
 </div>
 
 </div>
@@ -596,6 +593,21 @@ function getShieldImage(name) {
         .replaceAll("-", "_");
 
     return "/static/images/shields/" + filename + ".png";
+}
+    
+    // Character section
+    html += `
+<div class="result-section">
+<h3>Character</h3>
+<ul>
+<li><strong>Final Level:</strong> ${safeValue(data.character.final_level)}</li>
+<li><strong>Leveling Priority:</strong> ${safeValue(data.character.leveling_priority.join(", "))}</li>
+</ul>
+</div>
+`;
+    
+    fullRunContent.innerHTML = html;
+    fullRunResults.hidden = false;
 }
 
 async function generate(){
