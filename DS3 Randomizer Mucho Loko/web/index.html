@@ -355,6 +355,48 @@ function getWeaponImage(name) {
         return "test.png";
     }
 
+function getMagicImage(name) {
+    if (!name) {
+        return "";
+    }
+
+    const filename = name
+        .toLowerCase()
+        .replaceAll(" ", "_")
+        .replaceAll("'", "_")
+        .replaceAll("-", "_");
+
+    return "/static/images/magic/" + filename + ".png";
+}
+
+function getCatalystImage(name) {
+    if (!name) {
+        return "";
+    }
+
+    const filename = name
+        .toLowerCase()
+        .replaceAll(" ", "_")
+        .replaceAll("'", "_")
+        .replaceAll("-", "_");
+
+    return "/static/images/catalysts/" + filename + ".png";
+}
+
+function getShieldImage(name) {
+    if (!name) {
+        return "";
+    }
+
+    const filename = name
+        .toLowerCase()
+        .replaceAll(" ", "_")
+        .replaceAll("'", "_")
+        .replaceAll("-", "_");
+
+    return "/static/images/shields/" + filename + ".png";
+}
+
     const filename = name
         .toLowerCase()
         .replaceAll(" ", "_")
@@ -403,46 +445,76 @@ function safeValue(val) {
 
 function displayFullRun(data) {
     fullRunSummary.innerHTML = `<p><strong>Seed:</strong> ${data.seed}</p>`;
-    
+
     let html = "";
-    
-    // Weapons section
-html += `
+
+    // -----------------------------------------
+    // STARTING CLASS
+    // -----------------------------------------
+
+    const startingClass =
+        data.starting_class ??
+        data.weapons?.starting_class;
+
+    html += `
 <div class="result-section">
-<h3>Weapons</h3>
+<h3>Starting Class</h3>
+<p><strong>${safeValue(startingClass)}</strong></p>
+</div>
+`;
+
+    // -----------------------------------------
+    // CHARACTER
+    // -----------------------------------------
+
+    html += `
+<div class="result-section">
+<h3>Character</h3>
+<ul>
+<li>
+<strong>Final Level:</strong>
+${safeValue(data.character?.final_level)}
+</li>
+</ul>
+</div>
+`;
+
+    // -----------------------------------------
+    // FINAL WEAPON
+    // -----------------------------------------
+
+    const finalWeapon =
+        data.weapon ??
+        data.weapons?.weapon;
+
+    html += `
+<div class="result-section">
+<h3>Final Weapon</h3>
 
 <div class="full-run-weapons">
 
 <div class="full-run-weapon">
 <img
-src="${getWeaponImage(data.weapons.starting)}"
-alt="${safeValue(data.weapons.starting)}">
-<strong>Starting Weapon</strong>
-<span>${safeValue(data.weapons.starting)}</span>
-</div>
+src="${getWeaponImage(finalWeapon)}"
+alt="${safeValue(finalWeapon)}">
 
-<div class="full-run-weapon">
-<img
-src="${getWeaponImage(data.weapons.additional[0])}"
-alt="${safeValue(data.weapons.additional[0])}">
-<strong>Weapon #2</strong>
-<span>${safeValue(data.weapons.additional[0])}</span>
-</div>
+<strong>Final Weapon</strong>
 
-<div class="full-run-weapon">
-<img
-src="${getWeaponImage(data.weapons.additional[1])}"
-alt="${safeValue(data.weapons.additional[1])}">
-<strong>Weapon #3</strong>
-<span>${safeValue(data.weapons.additional[1])}</span>
+<span>
+${safeValue(finalWeapon)}
+</span>
+
 </div>
 
 </div>
 </div>
 `;
-    
-// Magic section
-html += `
+
+    // -----------------------------------------
+    // MAGIC
+    // -----------------------------------------
+
+    html += `
 <div class="result-section">
 <h3>Magic</h3>
 
@@ -450,21 +522,27 @@ html += `
 
 <div class="full-run-magic-item">
 <img
-src="${getMagicImage(data.magic && data.magic.spell)}"
-alt="${safeValue(data.magic && data.magic.spell)}">
+src="${getMagicImage(data.magic?.spell)}"
+alt="${safeValue(data.magic?.spell)}">
 
 <strong>Spell</strong>
-<span>${safeValue(data.magic && data.magic.spell)}</span>
+
+<span>
+${safeValue(data.magic?.spell)}
+</span>
 
 </div>
 
 <div class="full-run-magic-item">
 <img
-src="${getCatalystImage(data.magic && data.magic.catalyst)}"
-alt="${safeValue(data.magic && data.magic.catalyst)}">
+src="${getCatalystImage(data.magic?.catalyst)}"
+alt="${safeValue(data.magic?.catalyst)}">
 
 <strong>Catalyst</strong>
-<span>${safeValue(data.magic && data.magic.catalyst)}</span>
+
+<span>
+${safeValue(data.magic?.catalyst)}
+</span>
 
 </div>
 
@@ -472,14 +550,17 @@ alt="${safeValue(data.magic && data.magic.catalyst)}">
 
 <p>
 <strong>School:</strong>
-${safeValue(data.magic && data.magic.school)}
+${safeValue(data.magic?.school)}
 </p>
 
 </div>
 `;
-    
-// Shield section
-html += `
+
+    // -----------------------------------------
+    // SHIELD
+    // -----------------------------------------
+
+    html += `
 <div class="result-section">
 <h3>Shield</h3>
 
@@ -489,12 +570,17 @@ ${
     <div class="full-run-shield">
 
         <div class="full-run-shield-item">
+
             <img
-                src="${getShieldImage(data.shield)}"
-                alt="${safeValue(data.shield)}">
+            src="${getShieldImage(data.shield)}"
+            alt="${safeValue(data.shield)}">
 
             <strong>Shield</strong>
-            <span>${safeValue(data.shield)}</span>
+
+            <span>
+            ${safeValue(data.shield)}
+            </span>
+
         </div>
 
     </div>
@@ -506,9 +592,12 @@ ${
 
 </div>
 `;
-    
-    // Rings section
-html += `
+
+    // -----------------------------------------
+    // RINGS
+    // -----------------------------------------
+
+    html += `
 <div class="result-section">
 <h3>Rings</h3>
 
@@ -516,96 +605,40 @@ html += `
 
 <div class="full-run-ring">
 <img
-src="${getRingImage(data.rings[0])}"
-alt="${safeValue(data.rings[0])}">
+src="${getRingImage(data.rings?.[0])}"
+alt="${safeValue(data.rings?.[0])}">
 <strong>Ring #1</strong>
-<span>${safeValue(data.rings[0])}</span>
+<span>${safeValue(data.rings?.[0])}</span>
 </div>
 
 <div class="full-run-ring">
 <img
-src="${getRingImage(data.rings[1])}"
-alt="${safeValue(data.rings[1])}">
+src="${getRingImage(data.rings?.[1])}"
+alt="${safeValue(data.rings?.[1])}">
 <strong>Ring #2</strong>
-<span>${safeValue(data.rings[1])}</span>
+<span>${safeValue(data.rings?.[1])}</span>
 </div>
 
 <div class="full-run-ring">
 <img
-src="${getRingImage(data.rings[2])}"
-alt="${safeValue(data.rings[2])}">
+src="${getRingImage(data.rings?.[2])}"
+alt="${safeValue(data.rings?.[2])}">
 <strong>Ring #3</strong>
-<span>${safeValue(data.rings[2])}</span>
+<span>${safeValue(data.rings?.[2])}</span>
 </div>
 
 <div class="full-run-ring">
 <img
-src="${getRingImage(data.rings[3])}"
-alt="${safeValue(data.rings[3])}">
+src="${getRingImage(data.rings?.[3])}"
+alt="${safeValue(data.rings?.[3])}">
 <strong>Ring #4</strong>
-<span>${safeValue(data.rings[3])}</span>
+<span>${safeValue(data.rings?.[3])}</span>
 </div>
 
 </div>
 </div>
 `;
 
-    // Magic section
-function getMagicImage(name) {
-    if (!name) {
-        return "test.png";
-    }
-
-    const filename = name
-        .toLowerCase()
-        .replaceAll(" ", "_")
-        .replaceAll("'", "_")
-        .replaceAll("-", "_");
-
-    return "/static/images/magic/" + filename + ".png";
-}
-
-    // Catalyst section
-function getCatalystImage(name) {
-    if (!name) {
-        return "test.png";
-    }
-
-    const filename = name
-        .toLowerCase()
-        .replaceAll(" ", "_")
-        .replaceAll("'", "_")
-        .replaceAll("-", "_");
-
-    return "/static/images/catalysts/" + filename + ".png";
-}
-
-    // Shield section
-function getShieldImage(name) {
-    if (!name) {
-        return null;
-    }
-
-    const filename = name
-        .toLowerCase()
-        .replaceAll(" ", "_")
-        .replaceAll("'", "_")
-        .replaceAll("-", "_");
-
-    return "/static/images/shields/" + filename + ".png";
-}
-    
-    // Character section
-    html += `
-<div class="result-section">
-<h3>Character</h3>
-<ul>
-<li><strong>Final Level:</strong> ${safeValue(data.character.final_level)}</li>
-<li><strong>Leveling Priority:</strong> ${safeValue(data.character.leveling_priority.join(", "))}</li>
-</ul>
-</div>
-`;
-    
     fullRunContent.innerHTML = html;
     fullRunResults.hidden = false;
 }
