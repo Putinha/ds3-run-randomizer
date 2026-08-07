@@ -355,6 +355,15 @@ function getWeaponImage(name) {
         return "test.png";
     }
 
+    const filename = name
+        .toLowerCase()
+        .replaceAll(" ", "_")
+        .replaceAll("'", "_")
+        .replaceAll("-", "_");
+
+    return "/static/images/weapons/" + filename + ".png";
+}
+
 function getMagicImage(name) {
     if (!name) {
         return "";
@@ -397,14 +406,6 @@ function getShieldImage(name) {
     return "/static/images/shields/" + filename + ".png";
 }
 
-    const filename = name
-        .toLowerCase()
-        .replaceAll(" ", "_")
-        .replaceAll("'", "_")
-        .replaceAll("-", "_");
-
-    return "/static/images/weapons/" + filename + ".png";
-}
 function getRingImage(name) {
     if (!name) {
         return "test.png";
@@ -418,6 +419,7 @@ function getRingImage(name) {
 
     return "/static/images/rings/" + filename + ".png";
 }
+
 const fullRunResults=document.getElementById("full-run-results");
 const fullRunSummary=document.getElementById("full-run-summary");
 const fullRunContent=document.getElementById("full-run-content");
