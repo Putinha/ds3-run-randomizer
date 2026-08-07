@@ -187,8 +187,8 @@ def choose_rings(rng, rings):
 def choose_build(rng, build_rules):
     final_level_rules = build_rules["final_level"]
 
-    min_level = int(final_level_rules["min"])
-    max_level = int(final_level_rules["max"])
+    min_level = 50
+    max_level = 180
 
     if min_level > max_level:
         raise ValueError(
@@ -233,9 +233,8 @@ def choose_build(rng, build_rules):
     )
 
     return {
-        "final_level": final_level,
-        "leveling_priority": priorities,
-    }
+    "final_level": final_level,
+}
 
 
 def generate_full_run(seed=None, base_dir="."):
@@ -288,24 +287,26 @@ def generate_full_run(seed=None, base_dir="."):
             "At least three weapons are required."
         )
 
-    # -------------------------------------------------
-    # WEAPONS
-    # -------------------------------------------------
+# -------------------------------------------------
+# STARTING CLASS + FINAL WEAPON
+# -------------------------------------------------
 
-    starting_weapon = rng.choice(
-        starting_weapons
-    )
+    starting_classes = [
+        "Knight",
+        "Mercenary",
+        "Warrior",
+        "Herald",
+        "Thief",
+        "Assassin",
+        "Sorcerer",
+        "Pyromancer",
+        "Cleric",
+        "Deprived",
+]
 
-    remaining_weapons = [
-        weapon
-        for weapon in all_weapons
-        if weapon != starting_weapon
-    ]
+    starting_class = rng.choice(starting_classes)
 
-    additional_weapons = rng.sample(
-        remaining_weapons,
-        2
-    )
+    final_weapon = rng.choice(all_weapons)
 
     # -------------------------------------------------
     # OPTIONAL MAGIC + CATALYST
@@ -348,8 +349,8 @@ def generate_full_run(seed=None, base_dir="."):
         "seed": seed,
 
         "weapons": {
-            "starting": starting_weapon,
-            "additional": additional_weapons,
+            "starting_class": starting_class,
+            "weapon": final_weapon,
         },
 
         "magic": magic,
