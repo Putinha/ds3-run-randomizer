@@ -413,7 +413,17 @@ html += `
 <p><strong>${safeValue(data.starting_class)}</strong></p>
 </div>
 `;
-    
+
+// Character section
+html += `
+<div class="result-section">
+<h3>Character</h3>
+<ul>
+<li><strong>Final Level:</strong> ${safeValue(data.character.final_level)}</li>
+</ul>
+</div>
+`;
+
 // Final Weapon section
 html += `
 <div class="result-section">
@@ -586,21 +596,6 @@ function getShieldImage(name) {
         .replaceAll("-", "_");
 
     return "/static/images/shields/" + filename + ".png";
-}
-    
-    // Character section
-    html += `
-<div class="result-section">
-<h3>Character</h3>
-<ul>
-<li><strong>Final Level:</strong> ${safeValue(data.character.final_level)}</li>
-<li><strong>Leveling Priority:</strong> ${safeValue(data.character.leveling_priority.join(", "))}</li>
-</ul>
-</div>
-`;
-    
-    fullRunContent.innerHTML = html;
-    fullRunResults.hidden = false;
 }
 
 async function generate(){
