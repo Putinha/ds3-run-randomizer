@@ -111,6 +111,36 @@ class Handler(BaseHTTPRequestHandler):
             )
             return
 
+        # Static files (images, etc.)
+        if path.startswith("/static/"):
+            relative_path = path[len("/static/"):]
+
+            static_path = os.path.join(
+                os.path.dirname(os.path.abspath(__file__)),
+                "static",
+                relative_path
+            )
+
+            static_root = os.path.abspath(
+                os.path.join(
+                    os.path.dirname(os.path.abspath(__file__)),
+                    "static"
+                )
+            )
+
+            static_path = os.path.abspath(static_path)
+
+            # Prevent paths from escaping the static directory.
+            if not static_path.startswith(static_root + os.sep):
+                self.send_json(
+                    {"error": "Forbidden"},
+                    403
+                )
+                return
+
+            self.send_static_file(static_path)
+            return
+
         # Randomizer configuration
         if path == "/api/config":
             self.send_json({
@@ -336,6 +366,50 @@ class Handler(BaseHTTPRequestHandler):
                 404
             )
             return
+
+        self.send_response(200)
+
+        self.send_header(
+            "Content-Type",
+            content_type
+        )
+
+        self.send_header(
+            "Content-Length",
+            str(len(body))
+        )
+
+        self.end_headers()
+
+        self.wfile.write(body)
+
+    def send_static_file(self, path):
+        mime_types = {
+            ".png": "image/png",
+            ".jpg": "image/jpeg",
+            ".jpeg": "image/jpeg",
+            ".webp": "image/webp",
+            ".gif": "image/gif",
+            ".svg": "image/svg+xml",
+            ".ico": "image/x-icon",
+        }
+
+        try:
+            with open(path, "rb") as file:
+                body = file.read()
+        except OSError:
+            self.send_json(
+                {"error": "Static file not found"},
+                404
+            )
+            return
+
+        extension = os.path.splitext(path)[1].lower()
+
+        content_type = mime_types.get(
+            extension,
+            "application/octet-stream"
+        )
 
         self.send_response(200)
 
