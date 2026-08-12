@@ -107,30 +107,22 @@ def choose_magic(rng, spells, catalysts):
     """
     Magic is optional.
 
-    Returns:
-        {
-            "spell": ...,
-            "catalyst": ...
-        }
-
-    or:
-
-        {
-            "spell": None,
-            "catalyst": None
-        }
+    A spell may require one catalyst type or several
+    possible catalyst types.
     """
 
     if not spells:
         return {
             "spell": None,
+            "school": None,
             "catalyst": None,
         }
 
-    # 50% chance of receiving a magic.
+    # 50% chance of receiving magic.
     if rng.random() >= 0.5:
         return {
             "spell": None,
+            "school": None,
             "catalyst": None,
         }
 
@@ -142,16 +134,29 @@ def choose_magic(rng, spells, catalysts):
     if not valid_spells:
         return {
             "spell": None,
+            "school": None,
             "catalyst": None,
         }
 
     spell = rng.choice(valid_spells)
 
+    required_types = spell.get("catalyst_type")
+
+    if isinstance(required_types, str):
+        required_types = [required_types]
+
     valid_catalysts = [
         catalyst
         for catalyst in catalysts
-        if catalyst["type"] == spell["catalyst_type"]
+        if catalyst["type"] in required_types
     ]
+
+    if not valid_catalysts:
+        return {
+            "spell": None,
+            "school": None,
+            "catalyst": None,
+        }
 
     catalyst = rng.choice(valid_catalysts)
 
