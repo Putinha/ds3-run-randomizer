@@ -83,11 +83,22 @@ def get_magic_catalyst_pool(spells, catalysts):
         for catalyst in catalysts
     }
 
-    valid_spells = [
-        spell
-        for spell in spells
-        if spell.get("catalyst_type") in catalyst_types
-    ]
+    valid_spells = []
+
+    for spell in spells:
+        required_types = spell.get("catalyst_type")
+
+        if isinstance(required_types, str):
+            required_types = [required_types]
+
+        if not required_types:
+            continue
+
+        if any(
+            catalyst_type in catalyst_types
+            for catalyst_type in required_types
+        ):
+            valid_spells.append(spell)
 
     return valid_spells
 
@@ -346,21 +357,20 @@ def generate_full_run(seed=None, base_dir="."):
     )
 
     return {
-        "seed": seed,
+    "seed": seed,
 
-        "weapons": {
-            "starting_class": starting_class,
-            "weapon": final_weapon,
-        },
+    "starting_class": starting_class,
 
-        "magic": magic,
+    "weapon": final_weapon,
 
-        "shield": shield,
+    "magic": magic,
 
-        "rings": selected_rings,
+    "shield": shield,
 
-        "character": build,
-    }
+    "rings": selected_rings,
+
+    "character": build,
+}
 
 
 if __name__ == "__main__":
