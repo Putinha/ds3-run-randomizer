@@ -10,23 +10,650 @@
         "catalyst_type": "staff"
     },
     {
+        "name": "Affinity",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Aural Decoy",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Cast light",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Chameleon",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Crystal Hail",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Crystal Magic Weapon",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Crystal Soul Spear",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Dark Edge",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Deep Soul",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Farron Dart",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Farron Flashsword",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Farron Hail",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Frozen Weapon",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Great Deep Soul",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Great Farron Dart",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Great Heavy Soul Arrow",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Great Magic Shield",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Great Magic Weapon",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Hidden Weapon",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Great Soul Dregs",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Heavy Soul Arrow",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Hidden Body",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Homing Crystal Soulmass",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Homing Soulmass",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Magic Shield",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Magic Weapon",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Old Moonlight",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Pestilent Mist",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Repair",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Snap Freeze",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Soul Arrow",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Soul Greatsword",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Soul Spear",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Soul Stream",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Spook",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "Twisted Wall of Light",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
+        "name": "White Dragon Breath",
+        "school": "sorcery",
+        "catalyst_type": "staff"
+    },
+    {
         "name": "Fireball",
         "school": "pyromancy",
-        "catalyst_type": "pyromancy_flame"
+        "catalyst_type": "flame"
     },
     {
         "name": "Fire Orb",
         "school": "pyromancy",
-        "catalyst_type": "pyromancy_flame"
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Acid Surge",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Black Fire Orb",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Black Flame",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Black Serpent",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Boulder Heave",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Bursting Fireball",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Carthus Beacon",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Carthus Flame Arc",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Chaos Bed Vestiges",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Chaos Storm",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Fire Surge",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Fire Whip",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Firestorm",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Flame Fan",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Flash Sweat",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Floating Chaos",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Great Chaos Fire Orb",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Great Combustion",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Iron Flesh",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Poison Mist",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Power Within",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Profaned Flame",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Profuse Sweat",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Rapport",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Sacred Flame",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Seething Chaos",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Toxic Mist",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
+    },
+    {
+        "name": "Warmth",
+        "school": "pyromancy",
+        "catalyst_type": "flame"
     },
     {
         "name": "Heal",
         "school": "miracle",
-        "catalyst_type": "talisman"
+        "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
     },
     {
-        "name": "Lightning Spear",
-        "school": "miracle",
-        "catalyst_type": "talisman"
-    }
+    "name": "Lightning Spear",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Atonement",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Blessed Weapon",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Bountiful Light",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Bountiful Sunlight",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Caressing Tears",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Dark Blade",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Darkmoon Blade",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Dead Again",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Deep Protection",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Divine Pillars of Light",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Dorhys' Gnawing",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Emit Force",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Force",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Gnaw",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Great Heal",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Great Lightning Spear",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Great Magic Barrier",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Heal",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Heal Aid",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Homeward",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Lifehunt Scythe",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Lightning Arrow",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Lightning Blade",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Lightning Storm",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Lightning Stake",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Magic Barrier",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Med Heal",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Projected Heal",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Replenishment",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Sacred Oath",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Seek Guidance",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Soothing Sunlight",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Sunlight Spear",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Tears of Denial",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Vow of Silence",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Way of White Corona",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+},
+{
+    "name": "Wrath of the Gods",
+    "school": "miracle",
+    "catalyst_type": [
+        "talisman",
+        "chime"
+    ]
+}
 ]
