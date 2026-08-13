@@ -1,14 +1,215 @@
 [
     {
-        "name": "Life Ring"
+        "name": "Aldrich's Ruby"
+    },
+    {
+        "name": "Aldrich's Sapphire"
+    },
+    {
+        "name": "Ashen Estus Ring"
+    },
+    {
+        "name": "Bellowing Dragoncrest Ring"
+    },
+    {
+        "name": "Bloodbite Ring"
+    },
+    {
+        "name": "Blue Tearstone Ring"
+    },
+    {
+        "name": "Calamity Ring"
+    },
+    {
+        "name": "Carthus Bloodring"
+    },
+    {
+        "name": "Carthus Milkring"
+    },
+    {
+        "name": "Chillbite Ring"
     },
     {
         "name": "Chloranthy Ring"
     },
     {
-        "name": "Ring of Favor"
+        "name": "Covetous Gold Serpent Ring"
+    },
+    {
+        "name": "Covetous Silver Serpent Ring"
+    },
+    {
+        "name": "Cursebite Ring"
+    },
+    {
+        "name": "Dark Clutch Ring"
+    },
+    {
+        "name": "Dark Stoneplate Ring"
+    },
+    {
+        "name": "Darkmoon Ring"
+    },
+    {
+        "name": "Deep Ring"
+    },
+    {
+        "name": "Dragonscale Ring"
+    },
+    {
+        "name": "Dusk Crown Ring"
+    },
+    {
+        "name": "Estus Ring"
+    },
+    {
+        "name": "Farron Ring"
+    },
+    {
+        "name": "Fire Clutch Ring"
+    },
+    {
+        "name": "Flame Stoneplate Ring"
+    },
+    {
+        "name": "Fleshbite Ring"
+    },
+    {
+        "name": "Flynn's Ring"
+    },
+    {
+        "name": "Great Swamp Ring"
+    },
+    {
+        "name": "Havel's Ring"
+    },
+    {
+        "name": "Hawk Ring"
+    },
+    {
+        "name": "Hornet Ring"
+    },
+    {
+        "name": "Horsehoof Ring"
+    },
+    {
+        "name": "Hunter's Ring"
+    },
+    {
+        "name": "Knight Slayer's Ring"
+    },
+    {
+        "name": "Knight's Ring"
+    },
+    {
+        "name": "Leo Ring"
+    },
+    {
+        "name": "Life Ring"
+    },
+    {
+        "name": "Lightning Clutch Ring"
+    },
+    {
+        "name": "Lingering Dragoncrest Ring"
+    },
+    {
+        "name": "Lloyd's Shield Ring"
+    },
+    {
+        "name": "Lloyd's Sword Ring"
+    },
+    {
+        "name": "Magic Clutch Ring"
+    },
+    {
+        "name": "Magic Stoneplate Ring"
+    },
+    {
+        "name": "Morne's Ring"
+    },
+    {
+        "name": "Obscuring Ring"
+    },
+    {
+        "name": "Poisonbite Ring"
+    },
+    {
+        "name": "Pontiff's Left Eye"
+    },
+    {
+        "name": "Pontiff's Right Eye"
+    },
+    {
+        "name": "Priestess Ring"
     },
     {
         "name": "Prisoner's Chain"
+    },
+    {
+        "name": "Red Tearstone Ring"
+    },
+    {
+        "name": "Reversal Ring"
+    },
+    {
+        "name": "Ring of Favor"
+    },
+    {
+        "name": "Ring of Sacrifice"
+    },
+    {
+        "name": "Ring of Steel Protection"
+    },
+    {
+        "name": "Ring of the Evil Eye"
+    },
+    {
+        "name": "Ring of the Sun's First Born"
+    },
+    {
+        "name": "Sage Ring"
+    },
+    {
+        "name": "Saint's Ring"
+    },
+    {
+        "name": "Scholar Ring"
+    },
+    {
+        "name": "Silvercat Ring"
+    },
+    {
+        "name": "Skull Ring"
+    },
+    {
+        "name": "Slumbering Dragoncrest Ring"
+    },
+    {
+        "name": "Speckled Stoneplate Ring"
+    },
+    {
+        "name": "Sun Princess Ring"
+    },
+    {
+        "name": "Thunder Stoneplate Ring"
+    },
+    {
+        "name": "Untrue Dark Ring"
+    },
+    {
+        "name": "Untrue White Ring"
+    },
+    {
+        "name": "Witch's Ring"
+    },
+    {
+        "name": "Wolf Ring"
+    },
+    {
+        "name": "Wood Grain Ring"
+    },
+    {
+        "name": "Young Dragon Ring"
     }
 ]
