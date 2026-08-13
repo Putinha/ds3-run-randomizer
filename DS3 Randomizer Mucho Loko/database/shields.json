@@ -1,14 +1,191 @@
 [
     {
-        "name": "Wooden Shield"
+        "name": "Ancient Dragon Greatshield"
+    },
+    {
+        "name": "Buckler"
+    },
+    {
+        "name": "Black Knight Shield"
+    },
+    {
+        "name": "Blue Wooden Shield"
+    },
+    {
+        "name": "Black Iron Greatshield"
+    },
+    {
+        "name": "Bonewheel Shield"
+    },
+    {
+        "name": "Caduceus Round Shield"
+    },
+    {
+        "name": "Crimson Parma"
+    },
+    {
+        "name": "Carthus Shield"
+    },
+    {
+        "name": "Crest Shield"
+    },
+    {
+        "name": "Cathedral Knight Greatshield"
+    },
+    {
+        "name": "Curse Ward Greatshield"
+    },
+    {
+        "name": "Dragonhead Shield"
+    },
+    {
+        "name": "Dragon Crest Shield"
+    },
+    {
+        "name": "Dragonhead Greatshield"
+    },
+    {
+        "name": "Dragonslayer Greatshield"
+    },
+    {
+        "name": "Eastern Iron Shield"
+    },
+    {
+        "name": "Elkhorn Round Shield"
+    },
+    {
+        "name": "East-West Shield"
+    },
+    {
+        "name": "Ethereal Oak Shield"
+    },
+    {
+        "name": "Follower Shield"
+    },
+    {
+        "name": "Ghru Rotshield"
+    },
+    {
+        "name": "Golden Falcon Shield"
+    },
+    {
+        "name": "Golden Wing Crest Shield"
+    },
+    {
+        "name": "Grass Crest Shield"
+    },
+    {
+        "name": "Giant Door Shield"
+    },
+    {
+        "name": "Greatshield of Glory"
+    },
+    {
+        "name": "Hawkwood's Shield"
+    },
+    {
+        "name": "Havel's Greatshield"
     },
     {
         "name": "Iron Round Shield"
     },
     {
+        "name": "Kite Shield"
+    },
+    {
+        "name": "Knight Shield"
+    },
+    {
+        "name": "Leather Shield"
+    },
+    {
+        "name": "Llewellyn Shield"
+    },
+    {
+        "name": "Large Leather Shield"
+    },
+    {
+        "name": "Lothric Knight Greatshield"
+    },
+    {
         "name": "Lothric Knight Shield"
     },
     {
-        "name": "Black Knight Shield"
+        "name": "Moaning Shield"
+    },
+    {
+        "name": "Plank Shield"
+    },
+    {
+        "name": "Pierce Shield"
+    },
+    {
+        "name": "Pontiff Knight Shield"
+    },
+    {
+        "name": "Porcine Shield"
+    },
+    {
+        "name": "Red and White Round Shield"
+    },
+    {
+        "name": "Round Shield"
+    },
+    {
+        "name": "Sacred Bloom Shield"
+    },
+    {
+        "name": "Small Leather Shield"
+    },
+    {
+        "name": "Shield of Want"
+    },
+    {
+        "name": "Silver Eagle Kite Shield"
+    },
+    {
+        "name": "Silver Knight Shield"
+    },
+    {
+        "name": "Spider Shield"
+    },
+    {
+        "name": "Spiked Shield"
+    },
+    {
+        "name": "Spirit Tree Crest Shield"
+    },
+    {
+        "name": "Stone Parma"
+    },
+    {
+        "name": "Sunlight Shield"
+    },
+    {
+        "name": "Sunset Shield"
+    },
+    {
+        "name": "Stone Greatshield"
+    },
+    {
+        "name": "Target Shield"
+    },
+    {
+        "name": "Twin Dragon Greatshield"
+    },
+    {
+        "name": "Warrior's Round Shield"
+    },
+    {
+        "name": "Wooden Shield"
+    },
+    {
+        "name": "Wargod Wooden Shield"
+    },
+    {
+        "name": "Wolf Knight's Greatshield"
+    },
+    {
+        "name": "Yhorm's Greatshield"
     }
 ]
