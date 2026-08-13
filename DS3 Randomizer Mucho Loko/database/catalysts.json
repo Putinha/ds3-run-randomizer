@@ -1,5 +1,65 @@
 [
     {
+        "name": "Caitha's Chime",
+        "type": "chime"
+    },
+    {
+        "name": "Cleric's Sacred Chime",
+        "type": "chime"
+    },
+    {
+        "name": "Crystal Chime",
+        "type": "chime"
+    },
+    {
+        "name": "Priest's Chime",
+        "type": "chime"
+    },
+    {
+        "name": "Sacred Chime of Filianore",
+        "type": "chime"
+    },
+    {
+        "name": "Saint-tree Bellvine",
+        "type": "chime"
+    },
+    {
+        "name": "Yorshka's Chime",
+        "type": "chime"
+    },
+    {
+        "name": "Cleric's Candlestick",
+        "type": "staff"
+    },
+    {
+        "name": "Demon's Scar",
+        "type": "flame"
+    },
+    {
+        "name": "Golden Ritual Spear",
+        "type": "staff"
+    },
+    {
+        "name": "Heysel Pick",
+        "type": "staff"
+    },
+    {
+        "name": "Immolation Tinder",
+        "type": "staff"
+    },
+    {
+        "name": "Rose of Ariandel",
+        "type": "chime"
+    },
+    {
+        "name": "Pyromancy Flame",
+        "type": "flame"
+    },
+    {
+        "name": "Pyromancer's Parting Flame",
+        "type": "flame"
+    },
+    {
         "name": "Sorcerer's Staff",
         "type": "staff"
     },
@@ -8,11 +68,67 @@
         "type": "staff"
     },
     {
-        "name": "Pyromancy Flame",
-        "type": "pyromancy_flame"
+        "name": "Archdeacon's Great Staff",
+        "type": "staff"
+    },
+    {
+        "name": "Heretic's Staff",
+        "type": "staff"
+    },
+    {
+        "name": "Izalith Staff",
+        "type": "staff"
+    },
+    {
+        "name": "Man-grub's Staff",
+        "type": "staff"
+    },
+    {
+        "name": "Mendicant's Staff",
+        "type": "staff"
+    },
+    {
+        "name": "Murky Longstaff",
+        "type": "staff"
+    },
+    {
+        "name": "Preacher's Right Arm",
+        "type": "staff"
+    },
+    {
+        "name": "Sage's Crystal Staff",
+        "type": "staff"
+    },
+    {
+        "name": "Storyteller's Staff",
+        "type": "staff"
+    },
+    {
+        "name": "Witchtree Branch",
+        "type": "staff"
     },
     {
         "name": "Canvas Talisman",
+        "type": "talisman"
+    },
+    {
+        "name": "Talisman",
+        "type": "talisman"
+    },
+    {
+        "name": "Saint's Talisman",
+        "type": "talisman"
+    },
+    {
+        "name": "Sunless Talisman",
+        "type": "talisman"
+    },
+    {
+        "name": "Sunlight Talisman",
+        "type": "talisman"
+    },
+    {
+        "name": "White Hair Talisman",
         "type": "talisman"
     },
     {
