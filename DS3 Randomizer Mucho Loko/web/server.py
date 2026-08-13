@@ -149,26 +149,6 @@ class Handler(BaseHTTPRequestHandler):
                         "id": "weapons",
                         "name": "Weapons",
                         "available": True
-                    },
-                    {
-                        "id": "shields",
-                        "name": "Shields",
-                        "available": False
-                    },
-                    {
-                        "id": "armor",
-                        "name": "Armor",
-                        "available": False
-                    },
-                    {
-                        "id": "rings",
-                        "name": "Rings",
-                        "available": False
-                    },
-                    {
-                        "id": "spells",
-                        "name": "Spells",
-                        "available": False
                     }
                 ]
             })
