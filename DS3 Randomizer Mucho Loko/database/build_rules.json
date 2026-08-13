@@ -1,7 +1,7 @@
 {
     "final_level": {
-        "min": 80,
-        "max": 120
+        "min": 50,
+        "max": 180
     },
 
     "stats": [
